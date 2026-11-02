@@ -1,0 +1,30 @@
+# Levanta la API en modo demo, sin credenciales ni costo:
+#
+#   docker compose up --build
+#   abre http://localhost:8000/docs
+#
+# Para usar Gemini en Vertex AI, copia .env.example a .env, cambia
+# AI_PROVIDER=vertex y descomenta el volumen de credenciales de gcloud.
+services:
+  api:
+    build: .
+    image: document-extraction-ai
+    ports:
+      - "8000:8000"
+    environment:
+      AI_PROVIDER: ${AI_PROVIDER:-fake}
+    env_file:
+      - path: .env
+        required: false
+    volumes:
+      - storage:/srv/Storage
+      # Application Default Credentials de `gcloud auth application-default login`:
+      # - ${APPDATA:-~/.config}/gcloud:/home/app/.config/gcloud:ro
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/healthz')"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+
+volumes:
+  storage:

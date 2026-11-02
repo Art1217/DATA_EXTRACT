@@ -1,0 +1,23 @@
+.git
+.github
+.venv
+venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Datos y salidas locales. Anclados a la raíz: sin la barra, "Storage/"
+# también excluiría app/storage/ (el paquete de código) en Windows, que
+# compara rutas sin distinguir mayúsculas.
+/Storage/
+/Temp/
+/data/
+/credentials/
+
+.env
+tests/
+scripts/
+docs/
+*.pdf
