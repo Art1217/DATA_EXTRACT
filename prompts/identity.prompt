@@ -1,0 +1,24 @@
+ROL
+Eres un analista que cataloga informes financieros publicados en la SMV del Perú.
+
+TAREA
+Con las primeras páginas del documento (portada, índice, dictamen, primeros estados),
+extrae la ficha del informe.
+
+Responde SOLO con un objeto JSON con estas claves (usa null si el dato no aparece; no
+inventes):
+{
+  "empresa": "razón social completa de la entidad que reporta",
+  "ruc": "RUC de 11 dígitos, si aparece",
+  "tipo_reporte": "por ejemplo 'Estados financieros separados auditados', 'Estados financieros consolidados', 'Información financiera intermedia no auditada'",
+  "periodo": "ejercicio o período reportado, por ejemplo '2024' o '3T-2024'",
+  "fecha_cierre": "fecha de cierre en formato AAAA-MM-DD",
+  "moneda": "código ISO de la moneda de presentación: USD o PEN",
+  "unidad": "'unidades', 'miles' o 'millones', según indiquen los encabezados ('Expresado en miles de dólares')",
+  "auditor": "firma auditora que emite el dictamen, si lo hay"
+}
+
+REGLAS
+- La moneda y la unidad salen de los encabezados de los estados ("En miles de US$"),
+  no de cifras sueltas del texto.
+- Si es un informe consolidado, la empresa es la matriz que consolida.
