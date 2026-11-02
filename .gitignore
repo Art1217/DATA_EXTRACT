@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+
+# Secretos: nunca al repositorio
+.env
+credentials/
+*.json.key
+service-account*.json
+
+# Datos y artefactos locales (solo la raíz, no app/storage/)
+/Storage/
+/Temp/
+/data/
+
+# IDE / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

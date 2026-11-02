@@ -1,0 +1,67 @@
+[build-system]
+requires = ["setuptools>=80"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "document-extraction-ai"
+version = "1.0.0"
+description = "API que localiza, extrae y valida tablas de PDFs con Gemini (Vertex AI) y Document AI."
+readme = "README.md"
+license = "MIT"
+authors = [{ name = "Airton Collachagua" }]
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.162",
+    "uvicorn[standard]>=0.54",
+    "python-multipart>=0.0.33",
+    "pydantic>=2.14.2",
+    "pydantic-settings>=2.16.2",
+    "google-genai>=2.34",
+    "google-auth>=2.62",
+    "pymupdf>=2.1",
+    "opencv-python-headless>=5.0.0.93",
+    "pillow>=13.0",
+    "pandas>=3.1",
+    "openpyxl>=3.1.5",
+    "tenacity>=9.1",
+    "langsmith>=0.14.17",
+]
+
+[project.optional-dependencies]
+gcp = [
+    "google-cloud-documentai>=3.17",
+    "google-cloud-storage>=3.17.1",
+    "google-cloud-bigquery>=3.47",
+]
+dev = [
+    "pytest>=9.2",
+    "httpx>=0.28.1",
+    "ruff>=0.17.3",
+]
+
+[tool.setuptools.packages.find]
+include = ["app*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+filterwarnings = [
+    # langsmith todavía usa asyncio.iscoroutinefunction (deprecado en 3.14).
+    "ignore:'asyncio.iscoroutinefunction' is deprecated:DeprecationWarning",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+extend-exclude = ["prompts"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM"]
+ignore = [
+    "E501",   # el formateador decide; los docstrings largos son deliberados
+    "B008",   # Depends(...) en firmas es el idioma de FastAPI
+    "SIM105", # try/except/pass explícito se lee mejor en los bordes de E/S
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["B011"]
