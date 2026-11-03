@@ -42,7 +42,11 @@ flowchart LR
     C2 --> ID[Identidad<br/>empresa · período · moneda]
     ID --> S[Búsqueda<br/>páginas de cada tabla]
     S --> CUT[Recorte<br/>PDF de 2-3 páginas]
-    CUT --> X[Extracción<br/>filas estructuradas]
+    CUT --> SC{¿Escaneado?}
+    SC -->|sí| OCR[Document AI<br/>OCR solo del recorte]
+    OCR --> MERGE[PDF con capa de texto<br/>OCR sobre la imagen]
+    MERGE --> X
+    SC -->|no, digital| X[Extracción<br/>filas estructuradas]
     X --> Q{Calidad}
     Q -->|reglas contables| R[Activo = Pasivo + Patrimonio<br/>Utilidad neta = UAI + impuesto<br/>Caja final = inicial + variación]
     Q -->|revisión LLM| L[signos, períodos,<br/>conceptos mal ubicados]
@@ -54,6 +58,7 @@ flowchart LR
 | **Clasificación** en dos fases | barato (Flash) | La Fase 2 no exige la Fase 1: quien ya sabe qué trae su documento se ahorra una pasada. |
 | **Identidad** | barato | Se calcula una vez y la reutilizan todos los análisis; sirve de ancla para no mezclar subsidiarias. |
 | **Búsqueda** + **recorte** | barato | Cuanto mejor la búsqueda, menos páginas paga la extracción. El recorte se puede corregir a mano (`POST /cut`). |
+| **OCR** (solo escaneados) | Document AI | Va **después** del recorte: se paga el OCR de 2-3 páginas, no de las 150. Su texto se incrusta como capa invisible sobre la imagen, así el modelo recibe un único PDF con lo visual y el texto exacto. Sin `DOCAI_PROCESSOR_ID`, el escaneado va directo al modelo. |
 | **Extracción** | caro (Pro) | La etapa cara: chunks con solape, continuidad entre chunks y reparación de JSON dañado para no perder una respuesta ya pagada. |
 | **Calidad** | reglas + caro | Primero reglas deterministas (gratis, sin alucinaciones); el modelo solo revisa lo que una suma no ve. |
 
@@ -69,6 +74,17 @@ flowchart LR
 | — | Dictamen del auditor (solo se localiza) | | | |
 
 Agregar un análisis es **una fila** en [`app/domain/analysis.py`](app/domain/analysis.py) y sus prompts en [`prompts/`](prompts/). El servidor no arranca si falta un prompt declarado.
+
+### Abierto a otras áreas
+
+Los estados financieros son el dominio de ejemplo, no un límite. Las etapas, los jobs, el recorte, el OCR, la extracción por chunks y la reparación de JSON no saben nada de finanzas: el dominio vive en el catálogo, los prompts y las reglas. Para sumar un área (informes técnicos, contratos, reportes de laboratorio…):
+
+1. **Un grupo nuevo** en el enum `Group` y su prompt de Fase 2 en `CLASSIFICATION_ANALYSIS_PROMPTS` ([`analysis.py`](app/domain/analysis.py)).
+2. **El grupo en la Fase 1**: agregarlo a [`classification/grupo.prompt`](prompts/classification/grupo.prompt) para que se detecte.
+3. **Una fila por análisis** en el catálogo, con sus prompts de búsqueda, extracción y, si aplica, calidad.
+4. **Reglas deterministas**, opcionales, en [`accounting.py`](app/domain/accounting.py). Sin reglas ni prompt de calidad, el análisis simplemente no tiene esa etapa.
+
+Lo único todavía ligado al dominio financiero es la **identidad**: un solo prompt para todo el documento, con la empresa como ancla de la búsqueda y como columnas del Excel y de BigQuery. Un área cuya ficha sea otra (un pozo, un laboratorio) corre igual, pero esas columnas quedan vacías; el siguiente paso es un perfil de identidad por área.
 
 ---
 
