@@ -4,7 +4,7 @@ API que **localiza, extrae y valida tablas dentro de PDFs extensos** con Gemini 
 
 El dominio de ejemplo son los **estados financieros auditados de empresas mineras peruanas** que se publican en la SMV: informes de 80 a 200 páginas donde el balance, el estado de resultados y las notas que importan ocupan diez. El motor no sabe nada de finanzas: todo lo del dominio vive en un catálogo declarativo, en los prompts y en unas reglas contables.
 
-[![CI](https://github.com/Art1217/document-extraction-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/Art1217/document-extraction-ai/actions/workflows/ci.yml)
+[![CI](https://github.com/Art1217/DATA_EXTRACT/actions/workflows/ci.yml/badge.svg)](https://github.com/Art1217/DATA_EXTRACT/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.12%2B-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.162-009688)
 ![GCP](https://img.shields.io/badge/GCP-Vertex%20AI%20%7C%20Document%20AI%20%7C%20GCS%20%7C%20BigQuery-4285F4)
@@ -14,8 +14,8 @@ El dominio de ejemplo son los **estados financieros auditados de empresas minera
 ## Pruébalo en 1 minuto (sin credenciales)
 
 ```bash
-git clone https://github.com/Art1217/document-extraction-ai.git
-cd document-extraction-ai
+git clone https://github.com/Art1217/DATA_EXTRACT.git
+cd DATA_EXTRACT
 docker compose up --build
 ```
 
