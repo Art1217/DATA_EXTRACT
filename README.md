@@ -21,13 +21,13 @@ docker compose up --build
 
 Abre <http://localhost:8000/docs>, sube cualquier PDF en `POST /v1/documents` y lanza `POST /v1/documents/{id}/auto`.
 
-Arranca en **modo demo** (`AI_PROVIDER=fake`): un proveedor determinista responde con los estados de una empresa ficticia, así que se puede recorrer el pipeline completo (clasificación, búsqueda, extracción, control de calidad, Excel y ZIP) sin pagar un token. Para usar Gemini de verdad, ver [Correr con GCP](#correr-con-gcp).
+Arranca en **modo demo** (`AI_PROVIDER=fake`): un proveedor determinista responde con los estados de una empresa ficticia, así que se puede recorrer el pipeline completo (clasificación, búsqueda, extracción, control de calidad, Excel y ZIP) sin pagar un token. Para usar Gemini o Claude de verdad, ver [Correr con GCP](#correr-con-gcp).
 
 Sin Docker:
 
 ```bash
 python -m venv .venv && source .venv/bin/activate   # en Windows: .venv\Scripts\activate
-pip install -e ".[gcp,dev]"
+pip install -e ".[gcp,claude,dev]"
 python -m uvicorn app.main:app --reload
 ```
 
@@ -102,6 +102,8 @@ flowchart TB
     AD --> LLM{{"llm.generate()"}}
     LLM -->|AI_PROVIDER=vertex| V[Vertex AI · Gemini]
     LLM -->|gemini_api| G[Gemini API]
+    LLM -->|claude_vertex| CV[Vertex Model Garden · Claude]
+    LLM -->|anthropic| A[API de Anthropic · Claude]
     LLM -->|fake| F[proveedor demo]
     AD --> DAI[Document AI · OCR]
     SV --> PUB["publish → GCS + BigQuery"]
@@ -115,7 +117,7 @@ Las dependencias van en una sola dirección: `services/` no importa nada de `api
 - **El `document_id` es el SHA-256 del contenido.** Subir el mismo PDF dos veces devuelve el mismo id y todos sus artefactos ya calculados.
 - **Reutilizar es el comportamiento por defecto.** Rehacer una etapa cara es una decisión explícita (`reuse: false`), nunca un accidente. `auto` con `plan_only: true` clasifica sin gastar en extracción.
 - **Las reglas contables mandan sobre el modelo.** Un balance que no cuadra se rechaza aunque el LLM lo apruebe, y el error dice cuánto descuadra y en qué período.
-- **Un proveedor de IA conmutable.** Los adaptadores arman partes neutras (`text`, `blob`) y llaman a `llm.generate()`. El modo `fake` no importa el SDK de Google: los tests y el demo corren sin red.
+- **Un proveedor de IA conmutable, incluso por etapa.** Los adaptadores arman partes neutras (`text`, `blob`) y llaman a `llm.generate()`; cada proveedor las traduce a su API (Gemini con `google-genai`, Claude con el SDK de Anthropic). `AI_PROVIDER_EXTRACT` permite buscar con un modelo barato de un proveedor y extraer con otro. El modo `fake` no importa ningún SDK: los tests y el demo corren sin red.
 - **Storage por claves POSIX.** `documents/<id>/extraction/<análisis>/result.json` es una ruta en disco y, con `STORAGE_BACKEND=gcs`, literalmente el nombre del objeto en el bucket.
 - **Techo global de llamadas al modelo.** El paralelismo real es `JOB_WORKERS × BUSQUEDA_WORKERS`; `MAX_CONCURRENT_LLM_CALLS` evita el rate limit.
 - **Lo que no puede tumbar un job no lo tumba.** La telemetría, la publicación al bucket o una fila rechazada por BigQuery se registran y el job sigue: la extracción ya está pagada.
@@ -162,6 +164,27 @@ WHERE analysis_type = 'resultados'
 
 Sin un proyecto de GCP también se puede usar un modelo real con una API key de [Google AI Studio](https://aistudio.google.com/): `AI_PROVIDER=gemini_api` y `GEMINI_API_KEY=...`.
 
+### Claude en Vertex AI Model Garden
+
+Mismas credenciales y mismo proyecto; el modelo tiene que estar habilitado en Model Garden. Instalar el extra `[claude]` (la imagen de Docker ya lo trae):
+
+```ini
+AI_PROVIDER=claude_vertex
+MODEL_NAME_CLASSIFY=claude-haiku-5-5
+MODEL_NAME_EXTRACT=claude-opus-5-5
+```
+
+O combinar proveedores: buscar con Gemini Flash, que recorre todas las páginas y es lo que más tokens consume, y extraer con Claude:
+
+```ini
+AI_PROVIDER=vertex
+AI_PROVIDER_EXTRACT=claude_vertex
+MODEL_NAME_CLASSIFY=gemini-3.8-flash
+MODEL_NAME_EXTRACT=claude-opus-5-5
+```
+
+El adaptador ([`claude_llm.py`](app/adapters/claude_llm.py)) envía el recorte como bloque `document`, reduce las imágenes a 2000 px (con más de 20 por petición la API rechaza las más grandes), usa `effort` en lugar de `temperature` —`CLAUDE_EFFORT_CLASSIFY` y `CLAUDE_EFFORT_EXTRACT`— y trata una declinación por política como respuesta vacía, con reintento opcional en `CLAUDE_FALLBACK_MODEL`. Con la API directa de Anthropic: `AI_PROVIDER=anthropic` y `ANTHROPIC_API_KEY`.
+
 ---
 
 ## Uso de la API
@@ -201,7 +224,7 @@ Con `API_KEY` configurada, todo `/v1` exige la cabecera `X-API-Key`.
 ## Tests
 
 ```bash
-pytest          # 168 tests, ninguno llama a un modelo real
+pytest          # 180 tests, ninguno llama a un modelo real
 ruff check .
 ```
 
@@ -220,7 +243,7 @@ app/
   services/   una etapa por módulo + publicación GCS/BigQuery
   domain/     catálogo de análisis, reglas contables, contratos
   storage/    LocalStorage, GCSStorage, claves
-  adapters/   proveedor LLM (vertex | gemini_api | fake), Document AI, PyMuPDF/OpenCV
+  adapters/   proveedor LLM (vertex | gemini_api | claude_vertex | anthropic | fake), Document AI, PyMuPDF/OpenCV
 prompts/      clasificación, identidad, búsqueda, extracción y calidad
 tests/
 ```

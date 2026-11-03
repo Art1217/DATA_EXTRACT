@@ -1,12 +1,15 @@
-# Versiones exactas resueltas con pip-compile (Python 3.14, extra [gcp]).
+# Versiones exactas resueltas con pip-compile (Python 3.14, extras [gcp] y [claude]).
 # Reproducir el entorno:  pip install -r requirements.lock && pip install -e . --no-deps
-# Regenerar:             pip-compile --extra gcp --strip-extras -o requirements.lock pyproject.toml
+# Regenerar:             pip-compile --extra gcp --extra claude --strip-extras -o requirements.lock pyproject.toml
 annotated-doc==0.0.5
     # via fastapi
 annotated-types==0.8.0
     # via pydantic
+anthropic==2.4.0
+    # via document-extraction-ai (pyproject.toml)
 anyio==4.16.0
     # via
+    #   anthropic
     #   google-genai
     #   httpx
     #   httpx2
@@ -30,6 +33,8 @@ distro==1.9.0
     # via
     #   google-genai
     #   langsmith
+docstring-parser==0.18.0
+    # via anthropic
 et-xmlfile==2.0.0
     # via openpyxl
 fastapi==0.162.0
@@ -44,6 +49,7 @@ google-api-core==2.43.2
     #   google-cloud-storage
 google-auth==2.62.0
     # via
+    #   anthropic
     #   document-extraction-ai (pyproject.toml)
     #   google-api-core
     #   google-cloud-bigquery
@@ -96,13 +102,17 @@ httptools==0.9.0
 httpx==0.28.1
     # via google-genai
 httpx2==2.16.0
-    # via langsmith
+    # via
+    #   anthropic
+    #   langsmith
 idna==3.20
     # via
     #   anyio
     #   httpx
     #   httpx2
     #   requests
+jiter==0.18.0
+    # via anthropic
 langsmith==0.14.17
     # via document-extraction-ai (pyproject.toml)
 networkx==3.7
@@ -121,6 +131,7 @@ openpyxl==3.1.5
     # via document-extraction-ai (pyproject.toml)
 opentelemetry-api==1.45.2
     # via
+    #   anthropic
     #   fastapi
     #   google-api-core
 orjson==3.13.0
@@ -156,6 +167,7 @@ pycparser==3.12
     # via cffi
 pydantic==2.14.2
     # via
+    #   anthropic
     #   document-extraction-ai (pyproject.toml)
     #   fastapi
     #   google-genai
@@ -207,6 +219,7 @@ six==1.17.0
     # via python-dateutil
 sniffio==1.3.1
     # via
+    #   anthropic
     #   google-genai
     #   langsmith
 starlette==1.10.0
@@ -223,6 +236,7 @@ truststore==0.10.5
     #   httpx2
 typing-extensions==4.16.0
     # via
+    #   anthropic
     #   anyio
     #   fastapi
     #   google-genai

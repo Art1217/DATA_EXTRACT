@@ -57,7 +57,7 @@ def prompt_extraccion(settings):
 def _instalar(monkeypatch, cliente):
     """Pone un `GoogleGenAIProvider` real sobre el cliente simulado."""
     proveedor = llm.GoogleGenAIProvider(cliente)
-    monkeypatch.setattr(llm, "get_provider", lambda: proveedor)
+    monkeypatch.setattr(llm, "get_provider", lambda task=None: proveedor)
     return proveedor
 
 

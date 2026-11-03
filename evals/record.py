@@ -52,8 +52,9 @@ def _parse(text: str | None):
 class Recorder:
     """Envuelve al proveedor real y acumula sus respuestas por etapa y prompt."""
 
-    def __init__(self, inner, model_label: str, log_path: Path):
-        self.inner = inner
+    def __init__(self, resolve, model_label: str, log_path: Path):
+        self.resolve = resolve
+        """`llm.get_provider` original: elige el proveedor real de cada etapa."""
         self.lock = threading.Lock()
         self.log_path = log_path
         self.answers: dict = {
@@ -68,7 +69,7 @@ class Recorder:
 
     def generate(self, request):
         started = time.time()
-        response = self.inner.generate(request)
+        response = self.resolve(request.task).generate(request)
         pages = [
             int(m.group(1))
             for part in request.parts
@@ -151,17 +152,22 @@ def main() -> None:
     get_settings.cache_clear()
     settings = get_settings()
     if settings.ai_provider.value == "fake":
-        sys.exit("AI_PROVIDER es 'fake': configura gemini_api o vertex en .env antes de grabar.")
+        sys.exit("AI_PROVIDER es 'fake': configura un proveedor real en .env antes de grabar.")
 
     out_dir = ROOT / args.document / "out" / args.name
     out_dir.mkdir(parents=True, exist_ok=True)
     log_path = out_dir / "calls.jsonl"
     log_path.write_text("", encoding="utf-8")
 
-    real = llm.get_provider()
-    label = f"{settings.ai_provider.value}: {settings.model_name_classify} / {settings.model_name_extract}"
-    recorder = Recorder(real, label, log_path)
-    llm.get_provider = lambda: recorder
+    extract_provider = (settings.ai_provider_extract or settings.ai_provider).value
+    label = (
+        f"{settings.ai_provider.value}: {settings.model_name_classify} / "
+        f"{extract_provider}: {settings.model_name_extract}"
+    )
+    # Se guarda la función original: con AI_PROVIDER_EXTRACT, cada etapa puede
+    # ir a un proveedor distinto y el grabador tiene que respetarlo.
+    recorder = Recorder(llm.get_provider, label, log_path)
+    llm.get_provider = lambda task=None: recorder
 
     from app.domain.analysis import ANALYSIS_TYPES
     from app.main import app

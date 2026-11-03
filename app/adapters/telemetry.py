@@ -19,21 +19,37 @@ logger = logging.getLogger(__name__)
 
 
 def report_usage(response: Any, model: str) -> None:
-    """Adjunta a la traza en curso los tokens que consumió `response`."""
+    """Adjunta a la traza en curso los tokens de una respuesta de Gemini."""
+    usage = getattr(response, "usage_metadata", None)
+    if usage is None:
+        return
+    report_tokens(
+        model,
+        input_tokens=_count(usage, "prompt_token_count"),
+        output_tokens=_count(usage, "candidates_token_count"),
+        reasoning_tokens=_count(usage, "thoughts_token_count"),
+    )
+
+
+def report_tokens(
+    model: str, *, input_tokens: int, output_tokens: int, reasoning_tokens: int = 0
+) -> None:
+    """Adjunta a la traza en curso los tokens de una llamada, de cualquier proveedor.
+
+    `output_tokens` no incluye el razonamiento; LangSmith lo cobra como salida,
+    así que aquí se suman.
+    """
     try:
         run_tree = get_current_run_tree()
-        usage = getattr(response, "usage_metadata", None)
-        if run_tree is None or usage is None:
+        if run_tree is None:
             return
-
-        razonamiento = _count(usage, "thoughts_token_count")
         run_tree.extra.setdefault("metadata", {}).update(
             {
                 "ls_model_name": model,
                 "usage_metadata": {
-                    "input_tokens": _count(usage, "prompt_token_count"),
-                    "output_tokens": _count(usage, "candidates_token_count") + razonamiento,
-                    "output_token_details": {"reasoning": razonamiento},
+                    "input_tokens": input_tokens,
+                    "output_tokens": output_tokens + reasoning_tokens,
+                    "output_token_details": {"reasoning": reasoning_tokens},
                 },
             }
         )

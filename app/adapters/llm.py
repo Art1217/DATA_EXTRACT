@@ -8,6 +8,8 @@ responde lo decide `AI_PROVIDER`:
   Credentials o con una service account. Es la vía de producción en GCP.
 * `gemini_api` — Gemini con una API key de Google AI Studio, para probar con
   un modelo real sin montar un proyecto de GCP.
+* `claude_vertex` / `anthropic` — Claude en Vertex AI Model Garden (mismas
+  credenciales de GCP) o con la API de Anthropic (`app/adapters/claude_llm.py`).
 * `fake` — respuestas deterministas sin red (`app/adapters/fake_llm.py`).
   Permite levantar la API y recorrer el pipeline entero sin credenciales.
 
@@ -100,7 +102,7 @@ def generate(
         temperature=temperature,
         max_output_tokens=max_output_tokens,
     )
-    return get_provider().generate(request)
+    return get_provider(task).generate(request)
 
 
 # --------------------------------------------------------------------------
@@ -110,11 +112,21 @@ def generate(
 _providers: dict[str, LLMProvider] = {}
 _lock = threading.Lock()
 
+# Etapas que usan `AI_PROVIDER_EXTRACT` si está definido: las que corren con
+# `MODEL_NAME_EXTRACT`.
+_EXTRACT_TASKS = {"extract", "quality"}
 
-def get_provider() -> LLMProvider:
-    """Proveedor de `AI_PROVIDER`, construido una vez por proceso."""
+
+def get_provider(task: str | None = None) -> LLMProvider:
+    """Proveedor de la etapa, construido una vez por proceso y por tipo.
+
+    `AI_PROVIDER` vale para todo; `AI_PROVIDER_EXTRACT`, si está definido, lo
+    reemplaza en extracción y calidad.
+    """
     settings = get_settings()
     kind = settings.ai_provider
+    if task in _EXTRACT_TASKS and settings.ai_provider_extract is not None:
+        kind = settings.ai_provider_extract
     with _lock:
         provider = _providers.get(kind)
     if provider is not None:
@@ -130,6 +142,10 @@ def _build(kind: AIProvider, settings) -> LLMProvider:
         from app.adapters.fake_llm import FakeProvider
 
         return FakeProvider()
+    if kind in (AIProvider.CLAUDE_VERTEX, AIProvider.ANTHROPIC):
+        from app.adapters.claude_llm import build_provider
+
+        return build_provider(kind.value, settings)
     return GoogleGenAIProvider(_genai_client(kind, settings))
 
 

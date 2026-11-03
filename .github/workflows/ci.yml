@@ -25,7 +25,7 @@ jobs:
           cache-dependency-path: pyproject.toml
 
       - name: Instalar dependencias
-        run: pip install ".[gcp,dev]"
+        run: pip install ".[gcp,claude,dev]"
 
       - name: Lint
         run: |

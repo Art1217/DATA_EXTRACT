@@ -16,7 +16,7 @@ WORKDIR /srv
 
 COPY pyproject.toml README.md ./
 COPY app/ ./app/
-RUN pip install --no-cache-dir ".[gcp]"
+RUN pip install --no-cache-dir ".[gcp,claude]"
 
 # Los prompts son datos de arranque: el lifespan de app/main.py falla de
 # inmediato si falta uno declarado en el catálogo. Van dentro de la imagen

@@ -17,7 +17,7 @@ from enum import StrEnum
 from functools import lru_cache
 from pathlib import Path
 
-from pydantic import Field, SecretStr, model_validator
+from pydantic import Field, SecretStr, field_validator, model_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 # app/config/settings.py -> app/config -> app -> raíz del proyecto
@@ -31,6 +31,10 @@ class AIProvider(StrEnum):
     """Gemini en Vertex AI, con ADC o service account. La vía de producción."""
     GEMINI_API = "gemini_api"
     """Gemini con una API key de Google AI Studio, sin proyecto de GCP."""
+    CLAUDE_VERTEX = "claude_vertex"
+    """Claude en Vertex AI Model Garden, con las mismas credenciales de GCP."""
+    ANTHROPIC = "anthropic"
+    """Claude con la API directa de Anthropic (`ANTHROPIC_API_KEY`)."""
     FAKE = "fake"
     """Respuestas deterministas sin red ni credenciales: modo demo y tests."""
 
@@ -109,10 +113,42 @@ class Settings(BaseSettings):
     # --- Proveedor de IA --------------------------------------------------
     ai_provider: AIProvider = Field(
         default=AIProvider.FAKE,
-        description="vertex | gemini_api | fake. Por defecto `fake` para que corra sin credenciales.",
+        description=(
+            "vertex | gemini_api | claude_vertex | anthropic | fake. Por defecto `fake` "
+            "para que corra sin credenciales."
+        ),
+    )
+    ai_provider_extract: AIProvider | None = Field(
+        default=None,
+        description=(
+            "Proveedor solo para extracción y calidad. Permite, por ejemplo, buscar con "
+            "Gemini Flash y extraer con Claude. Si es None, se usa AI_PROVIDER en todo."
+        ),
     )
     gemini_api_key: SecretStr | None = Field(
         default=None, description="API key de Google AI Studio (solo con `gemini_api`)."
+    )
+    anthropic_api_key: SecretStr | None = Field(
+        default=None,
+        description="API key de Anthropic (solo con `anthropic`). Sin ella, el SDK busca la suya.",
+    )
+    claude_effort_classify: str | None = Field(
+        default="medium",
+        description=(
+            "Esfuerzo de Claude (low | medium | high | xhigh | max) en clasificación, "
+            "identidad y búsqueda. Vacío: el valor por defecto del modelo."
+        ),
+    )
+    claude_effort_extract: str | None = Field(
+        default="high",
+        description="Esfuerzo de Claude en extracción y calidad, donde cada cifra cuenta.",
+    )
+    claude_fallback_model: str | None = Field(
+        default=None,
+        description=(
+            "Modelo Claude que reintenta si el principal declina por política. Debe "
+            "estar habilitado en Model Garden. Vacío: sin reintento."
+        ),
     )
 
     # --- Google Cloud -----------------------------------------------------
@@ -243,6 +279,20 @@ class Settings(BaseSettings):
     )
     cors_origins: list[str] = Field(default_factory=lambda: ["*"])
     max_upload_mb: int = Field(default=200, ge=1)
+
+    @field_validator(
+        "ai_provider_extract",
+        "credentials_path",
+        "anthropic_api_key",
+        "claude_effort_classify",
+        "claude_effort_extract",
+        "claude_fallback_model",
+        mode="before",
+    )
+    @classmethod
+    def _empty_as_none(cls, value):
+        """`VARIABLE=` en el `.env` significa "sin definir", no un valor vacío."""
+        return None if value == "" else value
 
     @model_validator(mode="after")
     def _resolve_default_paths(self) -> Settings:

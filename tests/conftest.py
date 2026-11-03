@@ -32,6 +32,9 @@ from app.storage.workspace import Workspace  # noqa: E402
 # una prueba según quién la corra.
 _ISOLATED_ENV = {
     "AI_PROVIDER": "fake",
+    "AI_PROVIDER_EXTRACT": "",
+    "ANTHROPIC_API_KEY": "",
+    "CLAUDE_FALLBACK_MODEL": "",
     "STORAGE_BACKEND": "local",
     "PUBLISH_ENABLED": "false",
     "GCS_BUCKET": "",
@@ -141,7 +144,7 @@ class CountingProvider:
 @pytest.fixture
 def fake_ai(settings, monkeypatch) -> CountingProvider:
     provider = CountingProvider()
-    monkeypatch.setattr(llm, "get_provider", lambda: provider)
+    monkeypatch.setattr(llm, "get_provider", lambda task=None: provider)
     return provider
 
 
