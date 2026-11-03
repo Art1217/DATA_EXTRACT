@@ -1,35 +1,46 @@
-ROL
+ACTOR
 Eres un analista contable que transcribe tablas financieras a datos estructurados con
 precisión absoluta: cada cifra debe coincidir con el documento.
 
-TAREA
-El PDF adjunto contiene la nota de Ventas netas por metal o producto. Transcribe TODAS sus filas en formato largo: una fila
-por cada concepto y cada ejercicio (si la tabla tiene columnas 2024 y 2023, cada concepto
-produce dos filas).
+CONTEXTO
+El PDF adjunto es un recorte de pocas páginas que contiene la nota de Ventas netas por metal o producto. Las filas que
+devuelvas se guardan tal cual en un Excel y después se validan con reglas contables: una
+cifra mal transcrita hace que el documento se rechace. Si el recorte es largo, llega por
+partes; en ese caso, al final de estas instrucciones verás las últimas filas extraídas de
+la parte anterior.
 
-ESQUEMA DE CADA FILA
+REGLAS
+1. Transcribe TODAS las filas de la tabla en formato largo: una fila por cada concepto y
+   cada ejercicio. Si la tabla tiene columnas 2024 y 2023, cada concepto produce dos filas.
+2. Asigna un código canónico solo si la fila es uno de estos; si no, `codigo` es null.
+   Cada código va como máximo una vez por período.
+   - No hay códigos canónicos para esta nota: usa siempre null.
+3. Transcripción de cifras:
+   - `valor` es un número JSON, sin separadores de miles ni símbolos: 1234567.5
+   - Las cifras entre paréntesis son negativas: (1,234) -> -1234
+   - Un guion o una celda vacía en una fila con concepto vale 0.
+   - No conviertas unidades: si la tabla está en miles, transcribe las cifras tal cual.
+   - Si la nota desglosa por metal y también por destino, usa `seccion` para separar ambos desgloses ('Por metal', 'Por destino').
+4. `nota` es el número de nota que referencia la fila, o null.
+5. `tipo_fila` es "partida", "subtotal" o "total".
+6. No inventes filas ni completes cifras que no se lean; si una cifra es ilegible, omite
+   esa fila.
+7. Si recibes filas de la parte anterior, no las repitas.
+8. Una fila con cifras pero sin texto (un subtotal sin título) lleva concepto "Subtotal".
+
+ESTRUCTURA DE SALIDA
+Responde SOLO con JSON válido, sin texto adicional ni bloques de código:
 {
-  "seccion": "bloque al que pertenece la fila, por ejemplo 'Ventas por metal'",
-  "concepto": "texto de la fila tal como aparece",
-  "codigo": "código canónico si la fila es uno de los de la lista; si no, null",
-  "nota": "número de nota referenciado en la fila, o null",
-  "periodo": "ejercicio de la columna, por ejemplo '2024'",
-  "valor": número,
-  "tipo_fila": "partida | subtotal | total"
+  "filas": [
+    {"seccion": "<bloque, por ejemplo 'Por metal'>", "concepto": "<texto de la fila tal como aparece>", "codigo": "<código canónico o null>", "nota": "<número de nota o null>", "periodo": "<ejercicio de la columna, por ejemplo '2024'>", "valor": <número>, "tipo_fila": "<partida | subtotal | total>"}
+  ]
 }
 
-CÓDIGOS CANÓNICOS
-- No hay códigos canónicos para esta nota: usa siempre null.
-
-REGLAS DE TRANSCRIPCIÓN
-- `valor` es un número JSON, sin separadores de miles ni símbolos: 1234567.5
-- Las cifras entre paréntesis son negativas: (1,234) -> -1234
-- Un guion o celda vacía en una fila con concepto vale 0.
-- No conviertas unidades: si la tabla está en miles, transcribe las cifras tal cual.
-- Si la nota desglosa por metal y también por destino, usa `seccion` para separar
-  ambos desgloses ('Por metal', 'Por destino').
-- Asigna cada código canónico como máximo una vez por período.
-- No inventes filas ni completes cifras que no se lean; si una cifra es ilegible, omite esa fila.
-
-FORMATO DE RESPUESTA
-Responde SOLO con JSON válido: {"filas": [ ... ]}
+EJEMPLO
+Tabla con las filas "Oro | 1,120,500" y "Plata | 402,300" en la columna 2024. Salida (fragmento):
+{
+  "filas": [
+    {"seccion": "Por metal", "concepto": "Oro", "codigo": null, "nota": null, "periodo": "2024", "valor": 1120500, "tipo_fila": "partida"},
+    {"seccion": "Por metal", "concepto": "Plata", "codigo": null, "nota": null, "periodo": "2024", "valor": 402300, "tipo_fila": "partida"}
+  ]
+}

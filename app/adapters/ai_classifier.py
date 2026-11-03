@@ -20,13 +20,6 @@ from app.config import get_settings
 
 logger = logging.getLogger(__name__)
 
-_NUMBERING_RULE = (
-    "\n--- REGLA DE NUMERACIÓN CRÍTICA ---\n"
-    "Clasifica cada página usando ÚNICAMENTE el número de la etiqueta 'IMAGEN PÁGINA X'.\n"
-    "Ignora cualquier numeración impresa en el papel si hay discrepancia con la etiqueta enviada.\n"
-    "------------------------------------\n\n"
-)
-
 
 @traceable(run_type="llm", name="Clasificación de bloque")
 @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=4, max=10))
@@ -37,7 +30,7 @@ def classify_pages_block(image_data, prompt_path):
     Devuelve: `{"clasificaciones": [{"page_number", <etiqueta>, "confianza", "evidencia"}]}`.
     """
     settings = get_settings()
-    parts = [llm.text(_NUMBERING_RULE + read_prompt(prompt_path)), *labeled_page_parts(image_data)]
+    parts = [llm.text(read_prompt(prompt_path)), *labeled_page_parts(image_data)]
     response = llm.generate(
         task="classify",
         prompt_name=Path(prompt_path).stem,

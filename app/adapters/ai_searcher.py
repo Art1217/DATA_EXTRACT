@@ -15,14 +15,6 @@ from app.config import get_settings
 
 logger = logging.getLogger(__name__)
 
-_NUMBERING_RULE = (
-    "\n--- REGLA DE NUMERACIÓN CRÍTICA ---\n"
-    "Identifica la ubicación de los datos usando ÚNICAMENTE el número proporcionado en la "
-    "etiqueta 'IMAGEN PÁGINA X'.\n"
-    "Ignora cualquier numeración impresa en el papel si hay discrepancia con la etiqueta enviada.\n"
-    "------------------------------------\n\n"
-)
-
 _UNKNOWN = {"", "desconocido", "unknown"}
 
 
@@ -43,14 +35,12 @@ def search_pages_block(image_data, prompt_path, entity_context=None):
     anchor = ""
     if entity_context and entity_context.strip().lower() not in _UNKNOWN:
         anchor = (
-            "\n--- CONTEXTO DEL DOCUMENTO ---\n"
-            f"La entidad que reporta es: {entity_context}.\n"
-            "Asegúrate de que las tablas encontradas correspondan a esta entidad.\n"
-            "-------------------------------\n\n"
+            "\n\nENTIDAD QUE REPORTA\n"
+            f"{entity_context}. Aplica la regla 7: descarta las tablas de otras entidades.\n"
         )
 
     parts = [
-        llm.text(_NUMBERING_RULE + anchor + read_prompt(prompt_path)),
+        llm.text(read_prompt(prompt_path) + anchor),
         *labeled_page_parts(image_data),
     ]
     response = llm.generate(
