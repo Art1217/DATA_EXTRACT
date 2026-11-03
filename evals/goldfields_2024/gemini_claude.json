@@ -1,0 +1,5834 @@
+{
+  "model": "vertex: gemini-3.8-flash / claude_vertex: claude-opus-5-5",
+  "classification": {
+    "grupo": {
+      "clasificaciones": [
+        {
+          "page_number": 6,
+          "grupo": "Estados",
+          "confianza": "ALTA",
+          "evidencia": "ESTADO SEPARADO DE SITUACIÓN FINANCIERA"
+        },
+        {
+          "page_number": 7,
+          "grupo": "Estados",
+          "confianza": "ALTA",
+          "evidencia": "ESTADO SEPARADO DE RESULTADOS INTEGRALES"
+        },
+        {
+          "page_number": 8,
+          "grupo": "Estados",
+          "confianza": "ALTA",
+          "evidencia": "ESTADO SEPARADO DE CAMBIOS EN EL PATRIMONIO"
+        },
+        {
+          "page_number": 9,
+          "grupo": "Estados",
+          "confianza": "ALTA",
+          "evidencia": "ESTADO SEPARADO DE FLUJOS DE EFECTIVO"
+        },
+        {
+          "page_number": 10,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "NOTAS A LOS ESTADOS FINANCIEROS SEPARADOS 1 ANTECEDENTES Y ACTIVIDAD ECONÓMICA"
+        },
+        {
+          "page_number": 11,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "2 BASES DE PREPARACIÓN DE LOS ESTADOS FINANCIEROS SEPARADOS"
+        },
+        {
+          "page_number": 12,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "e) Uso de juicios y estimaciones"
+        },
+        {
+          "page_number": 13,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "ii. Método de depreciación y amortización por unidades de producción"
+        },
+        {
+          "page_number": 14,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "v. Impuestos vi. Estimación por deterioro del valor de existencias"
+        },
+        {
+          "page_number": 15,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "3 PRINCIPALES POLÍTICAS CONTABLES"
+        },
+        {
+          "page_number": 16,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "a) Efectivo y fondos restringidos b) Cuentas por cobrar comerciales"
+        },
+        {
+          "page_number": 17,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "Evaluación del modelo de negocio"
+        },
+        {
+          "page_number": 18,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "iii. Baja en cuentas - Activos financieros"
+        },
+        {
+          "page_number": 19,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "iv. Compensación de instrumentos financieros d) Existencias"
+        },
+        {
+          "page_number": 20,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "f) Propiedades, planta y equipo"
+        },
+        {
+          "page_number": 21,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "g) Activos intangibles - Derechos mineros"
+        },
+        {
+          "page_number": 22,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "Desbroce diferido h) Pasivos financieros i) Arrendamientos"
+        },
+        {
+          "page_number": 23,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "Los activos por derecho de uso se miden a su costo"
+        },
+        {
+          "page_number": 24,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "j) Impuesto a las ganancias"
+        },
+        {
+          "page_number": 25,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "k) Beneficios a los empleados"
+        },
+        {
+          "page_number": 26,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "l) Provisiones m) Deterioro de activos"
+        },
+        {
+          "page_number": 27,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "Medición de las pérdidas crediticias esperadas Castigo"
+        },
+        {
+          "page_number": 28,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "n) Reconocimiento de ingresos Venta de Concentrado"
+        },
+        {
+          "page_number": 29,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "Servicios de transporte marítimo Derivado implícito"
+        },
+        {
+          "page_number": 30,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "4 CAMBIOS EN ESTIMACIONES CONTABLES 5 CAMBIOS EN LAS POLÍTICAS CONTABLES SIGNIFICATIVAS"
+        },
+        {
+          "page_number": 31,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "6 ADMINISTRACIÓN DE RIESGOS FINANCIEROS"
+        },
+        {
+          "page_number": 32,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "Los saldos en moneda extranjera al 31 de diciembre se resumen como sigue"
+        },
+        {
+          "page_number": 33,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "detalle de instrumentos a plazo fijo y variable que mantiene la Compañía"
+        },
+        {
+          "page_number": 34,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "análisis de los pasivos financieros de la Compañía clasificados según su vencimiento"
+        },
+        {
+          "page_number": 35,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "Los índices de deuda-capital al 31 de diciembre fueron como sigue"
+        },
+        {
+          "page_number": 36,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "valores en libros y los valores razonables de los activos y pasivos financieros"
+        },
+        {
+          "page_number": 37,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "7 EFECTIVO Y FONDOS RESTRINGIDOS"
+        },
+        {
+          "page_number": 38,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "8 CUENTAS POR COBRAR COMERCIALES"
+        },
+        {
+          "page_number": 39,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "9 TRANSACCIONES CON PARTES RELACIONADAS"
+        },
+        {
+          "page_number": 40,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "10 OTRAS CUENTAS POR COBRAR"
+        },
+        {
+          "page_number": 41,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "estimación para desvalorización de existencias registrada por la Compañía"
+        },
+        {
+          "page_number": 42,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "12 PROPIEDADES, PLANTA Y EQUIPO"
+        },
+        {
+          "page_number": 43,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "el saldo de trabajos en curso comprende lo siguiente"
+        },
+        {
+          "page_number": 44,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "Deterioro de activos"
+        },
+        {
+          "page_number": 45,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "análisis de sensibilidad sobre los supuestos y variables mencionadas"
+        },
+        {
+          "page_number": 46,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "13 ACTIVOS INTANGIBLES"
+        },
+        {
+          "page_number": 47,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "14 INVERSIONES EN SUBSIDIARIAS"
+        },
+        {
+          "page_number": 48,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "Deterioro de la inversión en Gold Fields Nazca Holdings Inc."
+        },
+        {
+          "page_number": 49,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "15 CUENTAS POR PAGAR COMERCIALES"
+        },
+        {
+          "page_number": 50,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "17 OBLIGACIONES FINANCIERAS"
+        },
+        {
+          "page_number": 51,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "El detalle de las obligaciones financieras es el siguiente"
+        },
+        {
+          "page_number": 52,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "valor razonable de los pagos mínimos futuros de las obligaciones financieras"
+        },
+        {
+          "page_number": 53,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "Conciliación entre cambios en los pasivos y flujos de efectivo"
+        },
+        {
+          "page_number": 54,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "18 PROVISIONES"
+        },
+        {
+          "page_number": 55,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "Plan de incentivos de largo plazo"
+        },
+        {
+          "page_number": 56,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "19 PASIVO POR IMPUESTO A LAS GANANCIAS DIFERIDO"
+        },
+        {
+          "page_number": 57,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "20 CAPITAL EMITIDO"
+        },
+        {
+          "page_number": 58,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "23 OTRAS RESERVAS DE PATRIMONIO"
+        },
+        {
+          "page_number": 59,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "opciones y los instrumentos de patrimonio liquidados"
+        },
+        {
+          "page_number": 60,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "24 RESULTADOS ACUMULADOS"
+        },
+        {
+          "page_number": 61,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "Determinación del impuesto a las ganancias"
+        },
+        {
+          "page_number": 62,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "La conciliación de la tasa efectiva del impuesto a las ganancias"
+        },
+        {
+          "page_number": 63,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "Revisión fiscal de la autoridad tributaria"
+        },
+        {
+          "page_number": 64,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "27 INGRESO DE ACTIVIDADES ORDINARIAS"
+        },
+        {
+          "page_number": 65,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "28 COSTOS DE VENTAS"
+        },
+        {
+          "page_number": 66,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "29 GASTOS DE VENTAS"
+        },
+        {
+          "page_number": 67,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "31 OTROS (GASTOS) INGRESOS OPERATIVOS"
+        },
+        {
+          "page_number": 68,
+          "grupo": "Notas",
+          "confianza": "ALTA",
+          "evidencia": "33 COMPROMISOS Y GARANTÍAS OTORGADAS Y CONTINGENCIAS"
+        }
+      ]
+    },
+    "estados": {
+      "clasificaciones": [
+        {
+          "page_number": 6,
+          "codigo": "SitFin",
+          "confianza": "ALTA",
+          "evidencia": "ESTADO SEPARADO DE SITUACIÓN FINANCIERA"
+        },
+        {
+          "page_number": 7,
+          "codigo": "Result",
+          "confianza": "ALTA",
+          "evidencia": "ESTADO SEPARADO DE RESULTADOS INTEGRALES"
+        },
+        {
+          "page_number": 8,
+          "codigo": "Patrim",
+          "confianza": "ALTA",
+          "evidencia": "ESTADO SEPARADO DE CAMBIOS EN EL PATRIMONIO"
+        },
+        {
+          "page_number": 9,
+          "codigo": "Flujo",
+          "confianza": "ALTA",
+          "evidencia": "ESTADO SEPARADO DE FLUJOS DE EFECTIVO"
+        }
+      ]
+    },
+    "notas": {
+      "clasificaciones": [
+        {
+          "page_number": 40,
+          "codigo": "Invent",
+          "confianza": "ALTA",
+          "evidencia": "11 EXISTENCIAS Al 31 de diciembre este rubro comprende lo siguiente"
+        },
+        {
+          "page_number": 42,
+          "codigo": "PPE",
+          "confianza": "ALTA",
+          "evidencia": "12 PROPIEDADES, PLANTA Y EQUIPO El movimiento en el costo, el de su correspondiente depreciación"
+        },
+        {
+          "page_number": 64,
+          "codigo": "Ventas",
+          "confianza": "ALTA",
+          "evidencia": "27 INGRESO DE ACTIVIDADES ORDINARIAS Desagregación de ingresos Mercados geográficos primarios"
+        }
+      ]
+    }
+  },
+  "identity": {
+    "empresa": "GOLD FIELDS LA CIMA S.A.",
+    "ruc": null,
+    "tipo_reporte": "Estados financieros separados auditados",
+    "periodo": "2024",
+    "fecha_cierre": "2024-12-31",
+    "moneda": "USD",
+    "unidad": "miles",
+    "auditor": "Gaveglio Aparicio y Asociados Sociedad Civil de Responsabilidad Limitada"
+  },
+  "search": {
+    "situacion_financiera": {
+      "relevant_sections": [
+        {
+          "page_number": 6,
+          "section_title": "ESTADO SEPARADO DE SITUACIÓN FINANCIERA",
+          "confidence_score": 0.99,
+          "reason": "Presenta el activo, pasivo y patrimonio completos con sus respectivos totales clasificados en corriente y no corriente."
+        }
+      ],
+      "alerts": []
+    },
+    "resultados": {
+      "relevant_sections": [
+        {
+          "page_number": 7,
+          "section_title": "ESTADO SEPARADO DE RESULTADOS INTEGRALES",
+          "confidence_score": 0.99,
+          "reason": "Presenta el estado de resultados integrales completo, desde ingresos de actividades ordinarias hasta el resultado del año y otros resultados integrales."
+        }
+      ],
+      "alerts": []
+    },
+    "flujo_efectivo": {
+      "relevant_sections": [
+        {
+          "page_number": 9,
+          "section_title": "ESTADO SEPARADO DE FLUJOS DE EFECTIVO",
+          "confidence_score": 0.98,
+          "reason": "Presenta los flujos de actividades de operación, inversión y financiamiento, y la conciliación del efectivo al inicio y al final del año."
+        }
+      ],
+      "alerts": []
+    },
+    "cambios_patrimonio": {
+      "relevant_sections": [
+        {
+          "page_number": 8,
+          "section_title": "ESTADO SEPARADO DE CAMBIOS EN EL PATRIMONIO POR LOS AÑOS TERMINADOS EL 31 DE DICIEMBRE DE 2024 Y DE 2023",
+          "confidence_score": 1.0,
+          "reason": "Presenta el estado de cambios en el patrimonio con columnas por componente patrimonial y filas de movimientos de los ejercicios 2023 y 2024."
+        }
+      ],
+      "alerts": []
+    },
+    "propiedades_planta_equipo": {
+      "relevant_sections": [
+        {
+          "page_number": 42,
+          "section_title": "12 PROPIEDADES, PLANTA Y EQUIPO",
+          "confidence_score": 1.0,
+          "reason": "Tabla de movimiento del costo, depreciación acumulada y deterioro por clase de activo para 2024 y 2023."
+        },
+        {
+          "page_number": 43,
+          "section_title": "12 PROPIEDADES, PLANTA Y EQUIPO (continuación)",
+          "confidence_score": 0.95,
+          "reason": "Tabla de detalle de la composición de los trabajos en curso al 31 de diciembre de 2024 y 2023."
+        }
+      ],
+      "alerts": []
+    },
+    "inventarios": {
+      "relevant_sections": [
+        {
+          "page_number": 40,
+          "section_title": "11 EXISTENCIAS",
+          "confidence_score": 0.98,
+          "reason": "Tabla de composición de existencias que detalla productos terminados, en proceso, suministros y existencias por recibir"
+        }
+      ],
+      "alerts": []
+    },
+    "ventas_por_producto": {
+      "relevant_sections": [
+        {
+          "page_number": 64,
+          "section_title": "27 INGRESO DE ACTIVIDADES ORDINARIAS",
+          "confidence_score": 0.9,
+          "reason": "Presenta el importe de ventas por producto (concentrados de cobre) y ajustes de liquidación para los ejercicios 2024 y 2023."
+        }
+      ],
+      "alerts": []
+    },
+    "dictamen_auditor": {
+      "relevant_sections": [
+        {
+          "page_number": 3,
+          "section_title": "INFORME DE LOS AUDITORES INDEPENDIENTES",
+          "confidence_score": 0.98,
+          "reason": "Primera página del informe con la opinión del auditor independiente y el fundamento de la opinión."
+        },
+        {
+          "page_number": 4,
+          "section_title": "INFORME DE LOS AUDITORES INDEPENDIENTES (Continuación)",
+          "confidence_score": 0.98,
+          "reason": "Continuación del dictamen con las responsabilidades de la gerencia y del auditor independiente."
+        },
+        {
+          "page_number": 5,
+          "section_title": "INFORME DE LOS AUDITORES INDEPENDIENTES (Continuación)",
+          "confidence_score": 0.98,
+          "reason": "Finalización del informe de auditoría con la fecha, datos del socio y firma de la firma auditora."
+        }
+      ],
+      "alerts": []
+    }
+  },
+  "extraction": {
+    "situacion_financiera": {
+      "filas": [
+        {
+          "seccion": "Activo corriente",
+          "concepto": "Efectivo",
+          "codigo": null,
+          "nota": "7 i)",
+          "periodo": "2024",
+          "valor": 75759,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Activo corriente",
+          "concepto": "Efectivo",
+          "codigo": null,
+          "nota": "7 i)",
+          "periodo": "2023",
+          "valor": 59375,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Activo corriente",
+          "concepto": "Cuentas por cobrar comerciales",
+          "codigo": null,
+          "nota": "8",
+          "periodo": "2024",
+          "valor": 16456,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Activo corriente",
+          "concepto": "Cuentas por cobrar comerciales",
+          "codigo": null,
+          "nota": "8",
+          "periodo": "2023",
+          "valor": 18183,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Activo corriente",
+          "concepto": "Otras cuentas por cobrar",
+          "codigo": null,
+          "nota": "10",
+          "periodo": "2024",
+          "valor": 33687,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Activo corriente",
+          "concepto": "Otras cuentas por cobrar",
+          "codigo": null,
+          "nota": "10",
+          "periodo": "2023",
+          "valor": 32169,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Activo corriente",
+          "concepto": "Existencias",
+          "codigo": null,
+          "nota": "11",
+          "periodo": "2024",
+          "valor": 25161,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Activo corriente",
+          "concepto": "Existencias",
+          "codigo": null,
+          "nota": "11",
+          "periodo": "2023",
+          "valor": 27968,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Activo corriente",
+          "concepto": "Gastos contratados por anticipado",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 2618,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Activo corriente",
+          "concepto": "Gastos contratados por anticipado",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 2971,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Activo corriente",
+          "concepto": "Total activo corriente",
+          "codigo": "TOTAL_ACTIVO_CORRIENTE",
+          "nota": null,
+          "periodo": "2024",
+          "valor": 153681,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Activo corriente",
+          "concepto": "Total activo corriente",
+          "codigo": "TOTAL_ACTIVO_CORRIENTE",
+          "nota": null,
+          "periodo": "2023",
+          "valor": 140666,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Activo no corriente",
+          "concepto": "Fondos restringidos",
+          "codigo": null,
+          "nota": "7 ii)",
+          "periodo": "2024",
+          "valor": 20000,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Activo no corriente",
+          "concepto": "Fondos restringidos",
+          "codigo": null,
+          "nota": "7 ii)",
+          "periodo": "2023",
+          "valor": 20000,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Activo no corriente",
+          "concepto": "Existencias a largo plazo",
+          "codigo": null,
+          "nota": "11",
+          "periodo": "2024",
+          "valor": 190139,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Activo no corriente",
+          "concepto": "Existencias a largo plazo",
+          "codigo": null,
+          "nota": "11",
+          "periodo": "2023",
+          "valor": 150746,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Activo no corriente",
+          "concepto": "Propiedades, planta y equipo",
+          "codigo": null,
+          "nota": "12",
+          "periodo": "2024",
+          "valor": 137649,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Activo no corriente",
+          "concepto": "Propiedades, planta y equipo",
+          "codigo": null,
+          "nota": "12",
+          "periodo": "2023",
+          "valor": 157901,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Activo no corriente",
+          "concepto": "Activos intangibles",
+          "codigo": null,
+          "nota": "13",
+          "periodo": "2024",
+          "valor": 42230,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Activo no corriente",
+          "concepto": "Activos intangibles",
+          "codigo": null,
+          "nota": "13",
+          "periodo": "2023",
+          "valor": 36370,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Activo no corriente",
+          "concepto": "Inversión en subsidiarias",
+          "codigo": null,
+          "nota": "14",
+          "periodo": "2024",
+          "valor": 709,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Activo no corriente",
+          "concepto": "Inversión en subsidiarias",
+          "codigo": null,
+          "nota": "14",
+          "periodo": "2023",
+          "valor": 9679,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Activo no corriente",
+          "concepto": "Activo por impuesto a las ganancias diferido",
+          "codigo": null,
+          "nota": "19",
+          "periodo": "2024",
+          "valor": 59507,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Activo no corriente",
+          "concepto": "Activo por impuesto a las ganancias diferido",
+          "codigo": null,
+          "nota": "19",
+          "periodo": "2023",
+          "valor": 41218,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Activo no corriente",
+          "concepto": "Total activo no corriente",
+          "codigo": "TOTAL_ACTIVO_NO_CORRIENTE",
+          "nota": null,
+          "periodo": "2024",
+          "valor": 450234,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Activo no corriente",
+          "concepto": "Total activo no corriente",
+          "codigo": "TOTAL_ACTIVO_NO_CORRIENTE",
+          "nota": null,
+          "periodo": "2023",
+          "valor": 415914,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Total",
+          "concepto": "Total activo",
+          "codigo": "TOTAL_ACTIVO",
+          "nota": null,
+          "periodo": "2024",
+          "valor": 603915,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Total",
+          "concepto": "Total activo",
+          "codigo": "TOTAL_ACTIVO",
+          "nota": null,
+          "periodo": "2023",
+          "valor": 556580,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Pasivo corriente",
+          "concepto": "Obligaciones financieras",
+          "codigo": null,
+          "nota": "17",
+          "periodo": "2024",
+          "valor": 1749,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Pasivo corriente",
+          "concepto": "Obligaciones financieras",
+          "codigo": null,
+          "nota": "17",
+          "periodo": "2023",
+          "valor": 85913,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Pasivo corriente",
+          "concepto": "Cuentas por pagar comerciales",
+          "codigo": null,
+          "nota": "15",
+          "periodo": "2024",
+          "valor": 43703,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Pasivo corriente",
+          "concepto": "Cuentas por pagar comerciales",
+          "codigo": null,
+          "nota": "15",
+          "periodo": "2023",
+          "valor": 34493,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Pasivo corriente",
+          "concepto": "Provisiones",
+          "codigo": null,
+          "nota": "18",
+          "periodo": "2024",
+          "valor": 1780,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Pasivo corriente",
+          "concepto": "Provisiones",
+          "codigo": null,
+          "nota": "18",
+          "periodo": "2023",
+          "valor": 3110,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Pasivo corriente",
+          "concepto": "Otras cuentas por pagar",
+          "codigo": null,
+          "nota": "16",
+          "periodo": "2024",
+          "valor": 22352,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Pasivo corriente",
+          "concepto": "Otras cuentas por pagar",
+          "codigo": null,
+          "nota": "16",
+          "periodo": "2023",
+          "valor": 32730,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Pasivo corriente",
+          "concepto": "Total pasivo corriente",
+          "codigo": "TOTAL_PASIVO_CORRIENTE",
+          "nota": null,
+          "periodo": "2024",
+          "valor": 69584,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Pasivo corriente",
+          "concepto": "Total pasivo corriente",
+          "codigo": "TOTAL_PASIVO_CORRIENTE",
+          "nota": null,
+          "periodo": "2023",
+          "valor": 156246,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Pasivo no corriente",
+          "concepto": "Otras cuentas por pagar",
+          "codigo": null,
+          "nota": "16",
+          "periodo": "2024",
+          "valor": 165,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Pasivo no corriente",
+          "concepto": "Otras cuentas por pagar",
+          "codigo": null,
+          "nota": "16",
+          "periodo": "2023",
+          "valor": 471,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Pasivo no corriente",
+          "concepto": "Obligaciones financieras",
+          "codigo": null,
+          "nota": "17",
+          "periodo": "2024",
+          "valor": 34676,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Pasivo no corriente",
+          "concepto": "Obligaciones financieras",
+          "codigo": null,
+          "nota": "17",
+          "periodo": "2023",
+          "valor": 1258,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Pasivo no corriente",
+          "concepto": "Provisiones",
+          "codigo": null,
+          "nota": "18",
+          "periodo": "2024",
+          "valor": 182695,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Pasivo no corriente",
+          "concepto": "Provisiones",
+          "codigo": null,
+          "nota": "18",
+          "periodo": "2023",
+          "valor": 164566,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Pasivo no corriente",
+          "concepto": "Total pasivo no corriente",
+          "codigo": "TOTAL_PASIVO_NO_CORRIENTE",
+          "nota": null,
+          "periodo": "2024",
+          "valor": 217536,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Pasivo no corriente",
+          "concepto": "Total pasivo no corriente",
+          "codigo": "TOTAL_PASIVO_NO_CORRIENTE",
+          "nota": null,
+          "periodo": "2023",
+          "valor": 166295,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Total",
+          "concepto": "Total pasivo",
+          "codigo": "TOTAL_PASIVO",
+          "nota": null,
+          "periodo": "2024",
+          "valor": 287120,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Total",
+          "concepto": "Total pasivo",
+          "codigo": "TOTAL_PASIVO",
+          "nota": null,
+          "periodo": "2023",
+          "valor": 322541,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Patrimonio",
+          "concepto": "Capital emitido",
+          "codigo": null,
+          "nota": "20",
+          "periodo": "2024",
+          "valor": 264534,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Patrimonio",
+          "concepto": "Capital emitido",
+          "codigo": null,
+          "nota": "20",
+          "periodo": "2023",
+          "valor": 264534,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Patrimonio",
+          "concepto": "Acciones de inversión",
+          "codigo": null,
+          "nota": "21",
+          "periodo": "2024",
+          "valor": 35377,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Patrimonio",
+          "concepto": "Acciones de inversión",
+          "codigo": null,
+          "nota": "21",
+          "periodo": "2023",
+          "valor": 35377,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Patrimonio",
+          "concepto": "Otras reservas de capital",
+          "codigo": null,
+          "nota": "22",
+          "periodo": "2024",
+          "valor": 52907,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Patrimonio",
+          "concepto": "Otras reservas de capital",
+          "codigo": null,
+          "nota": "22",
+          "periodo": "2023",
+          "valor": 52907,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Patrimonio",
+          "concepto": "Otras reservas de patrimonio",
+          "codigo": null,
+          "nota": "23",
+          "periodo": "2024",
+          "valor": 38544,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Patrimonio",
+          "concepto": "Otras reservas de patrimonio",
+          "codigo": null,
+          "nota": "23",
+          "periodo": "2023",
+          "valor": 37336,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Patrimonio",
+          "concepto": "Resultados acumulados",
+          "codigo": null,
+          "nota": "24",
+          "periodo": "2024",
+          "valor": -74567,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Patrimonio",
+          "concepto": "Resultados acumulados",
+          "codigo": null,
+          "nota": "24",
+          "periodo": "2023",
+          "valor": -156115,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Patrimonio",
+          "concepto": "Total patrimonio",
+          "codigo": "TOTAL_PATRIMONIO",
+          "nota": null,
+          "periodo": "2024",
+          "valor": 316795,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Patrimonio",
+          "concepto": "Total patrimonio",
+          "codigo": "TOTAL_PATRIMONIO",
+          "nota": null,
+          "periodo": "2023",
+          "valor": 234039,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Total",
+          "concepto": "Total pasivo y patrimonio",
+          "codigo": "TOTAL_PASIVO_PATRIMONIO",
+          "nota": null,
+          "periodo": "2024",
+          "valor": 603915,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Total",
+          "concepto": "Total pasivo y patrimonio",
+          "codigo": "TOTAL_PASIVO_PATRIMONIO",
+          "nota": null,
+          "periodo": "2023",
+          "valor": 556580,
+          "tipo_fila": "total"
+        }
+      ]
+    },
+    "resultados": {
+      "filas": [
+        {
+          "seccion": "Resultados",
+          "concepto": "Ingresos de actividades ordinarias",
+          "codigo": "INGRESOS",
+          "nota": "27",
+          "periodo": "2024",
+          "valor": 410803,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Resultados",
+          "concepto": "Ingresos de actividades ordinarias",
+          "codigo": "INGRESOS",
+          "nota": "27",
+          "periodo": "2023",
+          "valor": 451381,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Resultados",
+          "concepto": "Costo de ventas",
+          "codigo": "COSTO_VENTAS",
+          "nota": "28",
+          "periodo": "2024",
+          "valor": -184523,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Resultados",
+          "concepto": "Costo de ventas",
+          "codigo": "COSTO_VENTAS",
+          "nota": "28",
+          "periodo": "2023",
+          "valor": -229553,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Resultados",
+          "concepto": "Ganancia bruta",
+          "codigo": "UTILIDAD_BRUTA",
+          "nota": null,
+          "periodo": "2024",
+          "valor": 226280,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Resultados",
+          "concepto": "Ganancia bruta",
+          "codigo": "UTILIDAD_BRUTA",
+          "nota": null,
+          "periodo": "2023",
+          "valor": 221828,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Gastos de venta",
+          "codigo": null,
+          "nota": "29",
+          "periodo": "2024",
+          "valor": -13191,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Gastos de venta",
+          "codigo": null,
+          "nota": "29",
+          "periodo": "2023",
+          "valor": -15147,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Gastos de administración",
+          "codigo": null,
+          "nota": "30",
+          "periodo": "2024",
+          "valor": -54486,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Gastos de administración",
+          "codigo": null,
+          "nota": "30",
+          "periodo": "2023",
+          "valor": -55911,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Deterioro de activos",
+          "codigo": null,
+          "nota": "12, 13 y 14",
+          "periodo": "2024",
+          "valor": -9197,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Deterioro de activos",
+          "codigo": null,
+          "nota": "12, 13 y 14",
+          "periodo": "2023",
+          "valor": -156187,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Otros gastos operativos",
+          "codigo": null,
+          "nota": "31",
+          "periodo": "2024",
+          "valor": -16337,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Otros gastos operativos",
+          "codigo": null,
+          "nota": "31",
+          "periodo": "2023",
+          "valor": -16412,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Otros ingresos operativos",
+          "codigo": null,
+          "nota": "31",
+          "periodo": "2024",
+          "valor": 1271,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Otros ingresos operativos",
+          "codigo": null,
+          "nota": "31",
+          "periodo": "2023",
+          "valor": 2236,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Resultados",
+          "concepto": "Resultado de operación",
+          "codigo": "UTILIDAD_OPERATIVA",
+          "nota": null,
+          "periodo": "2024",
+          "valor": 134340,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Resultados",
+          "concepto": "Resultado de operación",
+          "codigo": "UTILIDAD_OPERATIVA",
+          "nota": null,
+          "periodo": "2023",
+          "valor": -19593,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Financiero",
+          "concepto": "Ingresos financieros",
+          "codigo": null,
+          "nota": "32",
+          "periodo": "2024",
+          "valor": 2069,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Financiero",
+          "concepto": "Ingresos financieros",
+          "codigo": null,
+          "nota": "32",
+          "periodo": "2023",
+          "valor": 2753,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Financiero",
+          "concepto": "Gastos financieros",
+          "codigo": null,
+          "nota": "32",
+          "periodo": "2024",
+          "valor": -17154,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Financiero",
+          "concepto": "Gastos financieros",
+          "codigo": null,
+          "nota": "32",
+          "periodo": "2023",
+          "valor": -14546,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Financiero",
+          "concepto": "Diferencia en cambio, neta",
+          "codigo": null,
+          "nota": "32 y 6 a)",
+          "periodo": "2024",
+          "valor": -339,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Financiero",
+          "concepto": "Diferencia en cambio, neta",
+          "codigo": null,
+          "nota": "32 y 6 a)",
+          "periodo": "2023",
+          "valor": -1408,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Financiero",
+          "concepto": "Costo financiero, neto",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": -15424,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Financiero",
+          "concepto": "Costo financiero, neto",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": -13201,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Resultados",
+          "concepto": "Ganancia (pérdida) antes del impuesto a las ganancias",
+          "codigo": "UTILIDAD_ANTES_IMPUESTOS",
+          "nota": null,
+          "periodo": "2024",
+          "valor": 118916,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Resultados",
+          "concepto": "Ganancia (pérdida) antes del impuesto a las ganancias",
+          "codigo": "UTILIDAD_ANTES_IMPUESTOS",
+          "nota": null,
+          "periodo": "2023",
+          "valor": -32794,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Resultados",
+          "concepto": "Impuesto a las ganacias",
+          "codigo": "IMPUESTO_RENTA",
+          "nota": "26",
+          "periodo": "2024",
+          "valor": -37368,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Resultados",
+          "concepto": "Impuesto a las ganacias",
+          "codigo": "IMPUESTO_RENTA",
+          "nota": "26",
+          "periodo": "2023",
+          "valor": -11094,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Resultados",
+          "concepto": "Resultado del año y otros resultados integrales",
+          "codigo": "UTILIDAD_NETA",
+          "nota": null,
+          "periodo": "2024",
+          "valor": 81548,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Resultados",
+          "concepto": "Resultado del año y otros resultados integrales",
+          "codigo": "UTILIDAD_NETA",
+          "nota": null,
+          "periodo": "2023",
+          "valor": -43888,
+          "tipo_fila": "total"
+        }
+      ]
+    },
+    "flujo_efectivo": {
+      "filas": [
+        {
+          "seccion": "Operación",
+          "concepto": "Resultado del año",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 81548,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Resultado del año",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": -43888,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Depreciación",
+          "codigo": null,
+          "nota": "12",
+          "periodo": "2024",
+          "valor": 51916,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Depreciación",
+          "codigo": null,
+          "nota": "12",
+          "periodo": "2023",
+          "valor": 94134,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Amortización",
+          "codigo": null,
+          "nota": "13",
+          "periodo": "2024",
+          "valor": 6846,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Amortización",
+          "codigo": null,
+          "nota": "13",
+          "periodo": "2023",
+          "valor": 15686,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Costo financiero de pasivo por remediación ambiental",
+          "codigo": null,
+          "nota": "18",
+          "periodo": "2024",
+          "valor": 8055,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Costo financiero de pasivo por remediación ambiental",
+          "codigo": null,
+          "nota": "18",
+          "periodo": "2023",
+          "valor": 6439,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Adiciones al plan de incentivos a largo plazo",
+          "codigo": null,
+          "nota": "18",
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Adiciones al plan de incentivos a largo plazo",
+          "codigo": null,
+          "nota": "18",
+          "periodo": "2023",
+          "valor": 4212,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Adiciones de provisiones por contingencias",
+          "codigo": null,
+          "nota": "18",
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Adiciones de provisiones por contingencias",
+          "codigo": null,
+          "nota": "18",
+          "periodo": "2023",
+          "valor": 1205,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Derivado implícito",
+          "codigo": null,
+          "nota": "8",
+          "periodo": "2024",
+          "valor": 7517,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Derivado implícito",
+          "codigo": null,
+          "nota": "8",
+          "periodo": "2023",
+          "valor": 90,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Pago basado en acciones liquidado en instrumento de patrimonio",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 1208,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Pago basado en acciones liquidado en instrumento de patrimonio",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 1271,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Costo neto de retiro de propiedad, planta y equipo",
+          "codigo": null,
+          "nota": "12 y 13",
+          "periodo": "2024",
+          "valor": 3968,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Costo neto de retiro de propiedad, planta y equipo",
+          "codigo": null,
+          "nota": "12 y 13",
+          "periodo": "2023",
+          "valor": 239,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Deterioro de inversiones",
+          "codigo": null,
+          "nota": "14",
+          "periodo": "2024",
+          "valor": 9197,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Deterioro de inversiones",
+          "codigo": null,
+          "nota": "14",
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Deterioro de activos",
+          "codigo": null,
+          "nota": "12 y 13",
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Deterioro de activos",
+          "codigo": null,
+          "nota": "12 y 13",
+          "periodo": "2023",
+          "valor": 156187,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Impuestos a las ganancias",
+          "codigo": null,
+          "nota": "26",
+          "periodo": "2024",
+          "valor": 37368,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Impuestos a las ganancias",
+          "codigo": null,
+          "nota": "26",
+          "periodo": "2023",
+          "valor": 11094,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Intereses devengados",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 2612,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Intereses devengados",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 3240,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Cuentas por cobrar comerciales",
+          "codigo": null,
+          "nota": "8",
+          "periodo": "2024",
+          "valor": -5790,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Cuentas por cobrar comerciales",
+          "codigo": null,
+          "nota": "8",
+          "periodo": "2023",
+          "valor": -1144,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Otras cuentas por cobrar",
+          "codigo": null,
+          "nota": "10",
+          "periodo": "2024",
+          "valor": -1518,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Otras cuentas por cobrar",
+          "codigo": null,
+          "nota": "10",
+          "periodo": "2023",
+          "valor": 2431,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Existencias de corto y largo plazo",
+          "codigo": null,
+          "nota": "11",
+          "periodo": "2024",
+          "valor": -36586,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Existencias de corto y largo plazo",
+          "codigo": null,
+          "nota": "11",
+          "periodo": "2023",
+          "valor": -45644,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Gastos contratados por anticipado",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 353,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Gastos contratados por anticipado",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 717,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Cuentas por pagar comerciales",
+          "codigo": null,
+          "nota": "15",
+          "periodo": "2024",
+          "valor": 9210,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Cuentas por pagar comerciales",
+          "codigo": null,
+          "nota": "15",
+          "periodo": "2023",
+          "valor": -4091,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Otras cuentas por pagar",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": -42345,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Otras cuentas por pagar",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": -49754,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Subtotal",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 133559,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Subtotal",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 152424,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Intereses pagados",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": -2440,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Intereses pagados",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": -3240,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Impuesto a las ganancias pagado",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": -23842,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Impuesto a las ganancias pagado",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": -15097,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Pagos del plan de incentivos a largo plazo",
+          "codigo": null,
+          "nota": "18",
+          "periodo": "2024",
+          "valor": -2540,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Pagos del plan de incentivos a largo plazo",
+          "codigo": null,
+          "nota": "18",
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Pagos de contingencias",
+          "codigo": null,
+          "nota": "18",
+          "periodo": "2024",
+          "valor": -1330,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Pagos de contingencias",
+          "codigo": null,
+          "nota": "18",
+          "periodo": "2023",
+          "valor": -2654,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Efectivo neto generado por las actividades de operación",
+          "codigo": "FLUJO_OPERACION",
+          "nota": null,
+          "periodo": "2024",
+          "valor": 103407,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Operación",
+          "concepto": "Efectivo neto generado por las actividades de operación",
+          "codigo": "FLUJO_OPERACION",
+          "nota": null,
+          "periodo": "2023",
+          "valor": 131433,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Inversión",
+          "concepto": "Aumento en fondo restringido",
+          "codigo": null,
+          "nota": "7",
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Inversión",
+          "concepto": "Aumento en fondo restringido",
+          "codigo": null,
+          "nota": "7",
+          "periodo": "2023",
+          "valor": -10000,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Inversión",
+          "concepto": "Inversión en subsidiaria",
+          "codigo": null,
+          "nota": "14",
+          "periodo": "2024",
+          "valor": -227,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Inversión",
+          "concepto": "Inversión en subsidiaria",
+          "codigo": null,
+          "nota": "14",
+          "periodo": "2023",
+          "valor": -295,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Inversión",
+          "concepto": "Adquisición de propiedades, planta, equipo",
+          "codigo": null,
+          "nota": "12",
+          "periodo": "2024",
+          "valor": -33840,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Inversión",
+          "concepto": "Adquisición de propiedades, planta, equipo",
+          "codigo": null,
+          "nota": "12",
+          "periodo": "2023",
+          "valor": -44523,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Inversión",
+          "concepto": "Adquisición de activos intangibles",
+          "codigo": null,
+          "nota": "13",
+          "periodo": "2024",
+          "valor": -93,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Inversión",
+          "concepto": "Adquisición de activos intangibles",
+          "codigo": null,
+          "nota": "13",
+          "periodo": "2023",
+          "valor": -74,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Inversión",
+          "concepto": "Efectivo neto utilizado en las actividades de inversión",
+          "codigo": "FLUJO_INVERSION",
+          "nota": null,
+          "periodo": "2024",
+          "valor": -34160,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Inversión",
+          "concepto": "Efectivo neto utilizado en las actividades de inversión",
+          "codigo": "FLUJO_INVERSION",
+          "nota": null,
+          "periodo": "2023",
+          "valor": -54892,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Financiamiento",
+          "concepto": "Pago de obligaciones financieras",
+          "codigo": null,
+          "nota": "17",
+          "periodo": "2024",
+          "valor": -50000,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Financiamiento",
+          "concepto": "Pago de obligaciones financieras",
+          "codigo": null,
+          "nota": "17",
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Financiamiento",
+          "concepto": "Pagos de arrendamiento",
+          "codigo": null,
+          "nota": "17",
+          "periodo": "2024",
+          "valor": -2847,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Financiamiento",
+          "concepto": "Pagos de arrendamiento",
+          "codigo": null,
+          "nota": "17",
+          "periodo": "2023",
+          "valor": -1890,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Financiamiento",
+          "concepto": "Dividendos pagados",
+          "codigo": null,
+          "nota": "24",
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Financiamiento",
+          "concepto": "Dividendos pagados",
+          "codigo": null,
+          "nota": "24",
+          "periodo": "2023",
+          "valor": -107455,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Financiamiento",
+          "concepto": "Efectivo neto (utilizado en) las actividades de financiamiento",
+          "codigo": "FLUJO_FINANCIAMIENTO",
+          "nota": null,
+          "periodo": "2024",
+          "valor": -52847,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Financiamiento",
+          "concepto": "Efectivo neto (utilizado en) las actividades de financiamiento",
+          "codigo": "FLUJO_FINANCIAMIENTO",
+          "nota": null,
+          "periodo": "2023",
+          "valor": -109345,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Variación del efectivo",
+          "concepto": "Aumento neto (Disminución neta) de efectivo",
+          "codigo": "AUMENTO_NETO_EFECTIVO",
+          "nota": null,
+          "periodo": "2024",
+          "valor": 16400,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Variación del efectivo",
+          "concepto": "Aumento neto (Disminución neta) de efectivo",
+          "codigo": "AUMENTO_NETO_EFECTIVO",
+          "nota": null,
+          "periodo": "2023",
+          "valor": -32804,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Variación del efectivo",
+          "concepto": "Efecto de las variaciones en la diferencia de cambio sobre efectivo mantenido",
+          "codigo": "EFECTO_TIPO_CAMBIO",
+          "nota": null,
+          "periodo": "2024",
+          "valor": -16,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Variación del efectivo",
+          "concepto": "Efecto de las variaciones en la diferencia de cambio sobre efectivo mantenido",
+          "codigo": "EFECTO_TIPO_CAMBIO",
+          "nota": null,
+          "periodo": "2023",
+          "valor": 15,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Variación del efectivo",
+          "concepto": "Efectivo al inicio de año",
+          "codigo": "EFECTIVO_INICIAL",
+          "nota": null,
+          "periodo": "2024",
+          "valor": 59375,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Variación del efectivo",
+          "concepto": "Efectivo al inicio de año",
+          "codigo": "EFECTIVO_INICIAL",
+          "nota": null,
+          "periodo": "2023",
+          "valor": 92164,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Variación del efectivo",
+          "concepto": "Efectivo al final de año",
+          "codigo": "EFECTIVO_FINAL",
+          "nota": "7",
+          "periodo": "2024",
+          "valor": 75759,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Variación del efectivo",
+          "concepto": "Efectivo al final de año",
+          "codigo": "EFECTIVO_FINAL",
+          "nota": "7",
+          "periodo": "2023",
+          "valor": 59375,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Transacciones que no representan flujo de efectivo",
+          "concepto": "Actualización de cierre de mina",
+          "codigo": null,
+          "nota": "13",
+          "periodo": "2024",
+          "valor": -12614,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Transacciones que no representan flujo de efectivo",
+          "concepto": "Actualización de cierre de mina",
+          "codigo": null,
+          "nota": "13",
+          "periodo": "2023",
+          "valor": -29832,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Transacciones que no representan flujo de efectivo",
+          "concepto": "Adiciones al activo por derecho de uso",
+          "codigo": null,
+          "nota": "12",
+          "periodo": "2024",
+          "valor": 1792,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Transacciones que no representan flujo de efectivo",
+          "concepto": "Adiciones al activo por derecho de uso",
+          "codigo": null,
+          "nota": "12",
+          "periodo": "2023",
+          "valor": 495,
+          "tipo_fila": "partida"
+        }
+      ]
+    },
+    "cambios_patrimonio": {
+      "filas": [
+        {
+          "seccion": "Número de acciones - Comunes (en miles)",
+          "concepto": "Saldos al 1 de enero de 2023",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 1252312,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Número de acciones - De inversión (en miles)",
+          "concepto": "Saldos al 1 de enero de 2023",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 171306,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Capital emitido",
+          "concepto": "Saldos al 1 de enero de 2023",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 264534,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Acciones de inversión",
+          "concepto": "Saldos al 1 de enero de 2023",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 35377,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Otras reservas de capital",
+          "concepto": "Saldos al 1 de enero de 2023",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 52907,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Otras reservas de patrimonio",
+          "concepto": "Saldos al 1 de enero de 2023",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 49279,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Resultados acumulados",
+          "concepto": "Saldos al 1 de enero de 2023",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": -17986,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Total patrimonio",
+          "concepto": "Saldos al 1 de enero de 2023",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 384111,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Número de acciones - Comunes (en miles)",
+          "concepto": "Resultado del año y otros resultados integrales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Número de acciones - De inversión (en miles)",
+          "concepto": "Resultado del año y otros resultados integrales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Capital emitido",
+          "concepto": "Resultado del año y otros resultados integrales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Acciones de inversión",
+          "concepto": "Resultado del año y otros resultados integrales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Otras reservas de capital",
+          "concepto": "Resultado del año y otros resultados integrales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Otras reservas de patrimonio",
+          "concepto": "Resultado del año y otros resultados integrales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Resultados acumulados",
+          "concepto": "Resultado del año y otros resultados integrales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": -43888,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Total patrimonio",
+          "concepto": "Resultado del año y otros resultados integrales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": -43888,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Número de acciones - Comunes (en miles)",
+          "concepto": "Distribución de dividendos",
+          "codigo": null,
+          "nota": "23 y 24",
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Número de acciones - De inversión (en miles)",
+          "concepto": "Distribución de dividendos",
+          "codigo": null,
+          "nota": "23 y 24",
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Capital emitido",
+          "concepto": "Distribución de dividendos",
+          "codigo": null,
+          "nota": "23 y 24",
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Acciones de inversión",
+          "concepto": "Distribución de dividendos",
+          "codigo": null,
+          "nota": "23 y 24",
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Otras reservas de capital",
+          "concepto": "Distribución de dividendos",
+          "codigo": null,
+          "nota": "23 y 24",
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Otras reservas de patrimonio",
+          "concepto": "Distribución de dividendos",
+          "codigo": null,
+          "nota": "23 y 24",
+          "periodo": "2023",
+          "valor": -13214,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Resultados acumulados",
+          "concepto": "Distribución de dividendos",
+          "codigo": null,
+          "nota": "23 y 24",
+          "periodo": "2023",
+          "valor": -94241,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Total patrimonio",
+          "concepto": "Distribución de dividendos",
+          "codigo": null,
+          "nota": "23 y 24",
+          "periodo": "2023",
+          "valor": -107455,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Número de acciones - Comunes (en miles)",
+          "concepto": "Pagos basados en acciones",
+          "codigo": null,
+          "nota": "23",
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Número de acciones - De inversión (en miles)",
+          "concepto": "Pagos basados en acciones",
+          "codigo": null,
+          "nota": "23",
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Capital emitido",
+          "concepto": "Pagos basados en acciones",
+          "codigo": null,
+          "nota": "23",
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Acciones de inversión",
+          "concepto": "Pagos basados en acciones",
+          "codigo": null,
+          "nota": "23",
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Otras reservas de capital",
+          "concepto": "Pagos basados en acciones",
+          "codigo": null,
+          "nota": "23",
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Otras reservas de patrimonio",
+          "concepto": "Pagos basados en acciones",
+          "codigo": null,
+          "nota": "23",
+          "periodo": "2023",
+          "valor": 1271,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Resultados acumulados",
+          "concepto": "Pagos basados en acciones",
+          "codigo": null,
+          "nota": "23",
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Total patrimonio",
+          "concepto": "Pagos basados en acciones",
+          "codigo": null,
+          "nota": "23",
+          "periodo": "2023",
+          "valor": 1271,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Número de acciones - Comunes (en miles)",
+          "concepto": "Saldos al 31 de diciembre de 2023",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 1252312,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Número de acciones - De inversión (en miles)",
+          "concepto": "Saldos al 31 de diciembre de 2023",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 171306,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Capital emitido",
+          "concepto": "Saldos al 31 de diciembre de 2023",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 264534,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Acciones de inversión",
+          "concepto": "Saldos al 31 de diciembre de 2023",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 35377,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Otras reservas de capital",
+          "concepto": "Saldos al 31 de diciembre de 2023",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 52907,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Otras reservas de patrimonio",
+          "concepto": "Saldos al 31 de diciembre de 2023",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 37336,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Resultados acumulados",
+          "concepto": "Saldos al 31 de diciembre de 2023",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": -156115,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Total patrimonio",
+          "concepto": "Saldos al 31 de diciembre de 2023",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 234039,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Número de acciones - Comunes (en miles)",
+          "concepto": "Resultado del año y otros resultados integrales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Número de acciones - De inversión (en miles)",
+          "concepto": "Resultado del año y otros resultados integrales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Capital emitido",
+          "concepto": "Resultado del año y otros resultados integrales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Acciones de inversión",
+          "concepto": "Resultado del año y otros resultados integrales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Otras reservas de capital",
+          "concepto": "Resultado del año y otros resultados integrales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Otras reservas de patrimonio",
+          "concepto": "Resultado del año y otros resultados integrales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Resultados acumulados",
+          "concepto": "Resultado del año y otros resultados integrales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 81548,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Total patrimonio",
+          "concepto": "Resultado del año y otros resultados integrales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 81548,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Número de acciones - Comunes (en miles)",
+          "concepto": "Pagos basados en acciones",
+          "codigo": null,
+          "nota": "23",
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Número de acciones - De inversión (en miles)",
+          "concepto": "Pagos basados en acciones",
+          "codigo": null,
+          "nota": "23",
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Capital emitido",
+          "concepto": "Pagos basados en acciones",
+          "codigo": null,
+          "nota": "23",
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Acciones de inversión",
+          "concepto": "Pagos basados en acciones",
+          "codigo": null,
+          "nota": "23",
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Otras reservas de capital",
+          "concepto": "Pagos basados en acciones",
+          "codigo": null,
+          "nota": "23",
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Otras reservas de patrimonio",
+          "concepto": "Pagos basados en acciones",
+          "codigo": null,
+          "nota": "23",
+          "periodo": "2024",
+          "valor": 1208,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Resultados acumulados",
+          "concepto": "Pagos basados en acciones",
+          "codigo": null,
+          "nota": "23",
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Total patrimonio",
+          "concepto": "Pagos basados en acciones",
+          "codigo": null,
+          "nota": "23",
+          "periodo": "2024",
+          "valor": 1208,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Número de acciones - Comunes (en miles)",
+          "concepto": "Saldos al 31 de diciembre de 2024",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 1252312,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Número de acciones - De inversión (en miles)",
+          "concepto": "Saldos al 31 de diciembre de 2024",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 171306,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Capital emitido",
+          "concepto": "Saldos al 31 de diciembre de 2024",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 264534,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Acciones de inversión",
+          "concepto": "Saldos al 31 de diciembre de 2024",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 35377,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Otras reservas de capital",
+          "concepto": "Saldos al 31 de diciembre de 2024",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 52907,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Otras reservas de patrimonio",
+          "concepto": "Saldos al 31 de diciembre de 2024",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 38544,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Resultados acumulados",
+          "concepto": "Saldos al 31 de diciembre de 2024",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": -74567,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Total patrimonio",
+          "concepto": "Saldos al 31 de diciembre de 2024",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 316795,
+          "tipo_fila": "total"
+        }
+      ]
+    },
+    "propiedades_planta_equipo": {
+      "filas": [
+        {
+          "seccion": "Costo - Terrenos",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 14788,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Edificios, construcciones e instalaciones",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 912911,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Maquinaria y equipos",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 257720,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Unidades de transporte",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 613,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Activo por derecho de uso NIIF 16",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 7543,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Muebles y enseres",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 2370,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Equipos de cómputo",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 4940,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Equipos diversos",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 32948,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Costos de financiación",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 60164,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Unidades de reemplazo",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 596,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Trabajos en curso",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 15761,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Total",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 1310354,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Costo - Terrenos",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Edificios, construcciones e instalaciones",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Maquinaria y equipos",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Unidades de transporte",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Activo por derecho de uso NIIF 16",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 1792,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Muebles y enseres",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Equipos de cómputo",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Equipos diversos",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Costos de financiación",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Unidades de reemplazo",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Trabajos en curso",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 33840,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Total",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 35632,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Costo - Terrenos",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Edificios, construcciones e instalaciones",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": -9182,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Maquinaria y equipos",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": -3662,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Unidades de transporte",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": -87,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Activo por derecho de uso NIIF 16",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": -2337,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Muebles y enseres",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": -1771,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Equipos de cómputo",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": -317,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Equipos diversos",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": -6246,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Costos de financiación",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Unidades de reemplazo",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Trabajos en curso",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Total",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": -23602,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Costo - Terrenos",
+          "concepto": "Transferencias",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 3146,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Edificios, construcciones e instalaciones",
+          "concepto": "Transferencias",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 7998,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Maquinaria y equipos",
+          "concepto": "Transferencias",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 1223,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Unidades de transporte",
+          "concepto": "Transferencias",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Activo por derecho de uso NIIF 16",
+          "concepto": "Transferencias",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Muebles y enseres",
+          "concepto": "Transferencias",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Equipos de cómputo",
+          "concepto": "Transferencias",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 98,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Equipos diversos",
+          "concepto": "Transferencias",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 1674,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Costos de financiación",
+          "concepto": "Transferencias",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Unidades de reemplazo",
+          "concepto": "Transferencias",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Trabajos en curso",
+          "concepto": "Transferencias",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": -14139,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Total",
+          "concepto": "Transferencias",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Costo - Terrenos",
+          "concepto": "Total costo",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 17934,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Costo - Edificios, construcciones e instalaciones",
+          "concepto": "Total costo",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 911727,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Costo - Maquinaria y equipos",
+          "concepto": "Total costo",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 255281,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Costo - Unidades de transporte",
+          "concepto": "Total costo",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 526,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Costo - Activo por derecho de uso NIIF 16",
+          "concepto": "Total costo",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 6998,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Costo - Muebles y enseres",
+          "concepto": "Total costo",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 599,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Costo - Equipos de cómputo",
+          "concepto": "Total costo",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 4721,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Costo - Equipos diversos",
+          "concepto": "Total costo",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 28376,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Costo - Costos de financiación",
+          "concepto": "Total costo",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 60164,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Costo - Unidades de reemplazo",
+          "concepto": "Total costo",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 596,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Costo - Trabajos en curso",
+          "concepto": "Total costo",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 35462,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Costo - Total",
+          "concepto": "Total costo",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 1322384,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Depreciación acumulada - Terrenos",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Edificios, construcciones e instalaciones",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 737480,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Maquinaria y equipos",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 218797,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Unidades de transporte",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 587,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Activo por derecho de uso NIIF 16",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 4048,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Muebles y enseres",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 2034,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Equipos de cómputo",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 3831,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Equipos diversos",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 25115,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Costos de financiación",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 52924,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Unidades de reemplazo",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Trabajos en curso",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Total",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 1044816,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Depreciación acumulada - Terrenos",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Edificios, construcciones e instalaciones",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 43024,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Maquinaria y equipos",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 3629,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Unidades de transporte",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 5,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Activo por derecho de uso NIIF 16",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 2102,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Muebles y enseres",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 62,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Equipos de cómputo",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 419,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Equipos diversos",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 2098,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Costos de financiación",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 577,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Unidades de reemplazo",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Trabajos en curso",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Total",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 51916,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Depreciación acumulada - Terrenos",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Edificios, construcciones e instalaciones",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": -7061,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Maquinaria y equipos",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": -3304,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Unidades de transporte",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": -87,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Activo por derecho de uso NIIF 16",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": -1824,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Muebles y enseres",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": -1771,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Equipos de cómputo",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": -317,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Equipos diversos",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": -5270,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Costos de financiación",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Unidades de reemplazo",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Trabajos en curso",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Total",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": -19634,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Depreciación acumulada - Terrenos",
+          "concepto": "Total depreciación acumulada",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Depreciación acumulada - Edificios, construcciones e instalaciones",
+          "concepto": "Total depreciación acumulada",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 773443,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Depreciación acumulada - Maquinaria y equipos",
+          "concepto": "Total depreciación acumulada",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 219122,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Depreciación acumulada - Unidades de transporte",
+          "concepto": "Total depreciación acumulada",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 505,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Depreciación acumulada - Activo por derecho de uso NIIF 16",
+          "concepto": "Total depreciación acumulada",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 4326,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Depreciación acumulada - Muebles y enseres",
+          "concepto": "Total depreciación acumulada",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 325,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Depreciación acumulada - Equipos de cómputo",
+          "concepto": "Total depreciación acumulada",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 3933,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Depreciación acumulada - Equipos diversos",
+          "concepto": "Total depreciación acumulada",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 21943,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Depreciación acumulada - Costos de financiación",
+          "concepto": "Total depreciación acumulada",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 53501,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Depreciación acumulada - Unidades de reemplazo",
+          "concepto": "Total depreciación acumulada",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Depreciación acumulada - Trabajos en curso",
+          "concepto": "Total depreciación acumulada",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Depreciación acumulada - Total",
+          "concepto": "Total depreciación acumulada",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 1077098,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Deterioro de activos - Terrenos",
+          "concepto": "Total deterioro",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Deterioro de activos - Edificios, construcciones e instalaciones",
+          "concepto": "Total deterioro",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 82886,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Deterioro de activos - Maquinaria y equipos",
+          "concepto": "Total deterioro",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 20722,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Deterioro de activos - Unidades de transporte",
+          "concepto": "Total deterioro",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Deterioro de activos - Activo por derecho de uso NIIF 16",
+          "concepto": "Total deterioro",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Deterioro de activos - Muebles y enseres",
+          "concepto": "Total deterioro",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Deterioro de activos - Equipos de cómputo",
+          "concepto": "Total deterioro",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Deterioro de activos - Equipos diversos",
+          "concepto": "Total deterioro",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Deterioro de activos - Costos de financiación",
+          "concepto": "Total deterioro",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 4029,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Deterioro de activos - Unidades de reemplazo",
+          "concepto": "Total deterioro",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Deterioro de activos - Trabajos en curso",
+          "concepto": "Total deterioro",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Deterioro de activos - Total",
+          "concepto": "Total deterioro",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 107637,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Valor en libros - Terrenos",
+          "concepto": "Valor en libros al 31 de diciembre de 2024",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 17934,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Valor en libros - Edificios, construcciones e instalaciones",
+          "concepto": "Valor en libros al 31 de diciembre de 2024",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 55398,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Valor en libros - Maquinaria y equipos",
+          "concepto": "Valor en libros al 31 de diciembre de 2024",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 15437,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Valor en libros - Unidades de transporte",
+          "concepto": "Valor en libros al 31 de diciembre de 2024",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 21,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Valor en libros - Activo por derecho de uso NIIF 16",
+          "concepto": "Valor en libros al 31 de diciembre de 2024",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 2672,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Valor en libros - Muebles y enseres",
+          "concepto": "Valor en libros al 31 de diciembre de 2024",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 274,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Valor en libros - Equipos de cómputo",
+          "concepto": "Valor en libros al 31 de diciembre de 2024",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 788,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Valor en libros - Equipos diversos",
+          "concepto": "Valor en libros al 31 de diciembre de 2024",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 6433,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Valor en libros - Costos de financiación",
+          "concepto": "Valor en libros al 31 de diciembre de 2024",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 2634,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Valor en libros - Unidades de reemplazo",
+          "concepto": "Valor en libros al 31 de diciembre de 2024",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 596,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Valor en libros - Trabajos en curso",
+          "concepto": "Valor en libros al 31 de diciembre de 2024",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 35462,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Valor en libros - Total",
+          "concepto": "Valor en libros al 31 de diciembre de 2024",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 137649,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Costo - Terrenos",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 14788,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Edificios, construcciones e instalaciones",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 874592,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Maquinaria y equipos",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 255980,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Unidades de transporte",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 613,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Activo por derecho de uso NIIF 16",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 8464,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Muebles y enseres",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 2430,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Equipos de cómputo",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 4545,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Equipos diversos",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 31171,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Costos de financiación",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 60164,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Unidades de reemplazo",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 681,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Trabajos en curso",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 14243,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Total",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 1267671,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Costo - Terrenos",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Edificios, construcciones e instalaciones",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Maquinaria y equipos",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Unidades de transporte",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Activo por derecho de uso NIIF 16",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 495,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Muebles y enseres",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Equipos de cómputo",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Equipos diversos",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Costos de financiación",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Unidades de reemplazo",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 29,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Trabajos en curso",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 44494,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Total",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 45018,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Costo - Terrenos",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Edificios, construcciones e instalaciones",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": -18,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Maquinaria y equipos",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": -448,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Unidades de transporte",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Activo por derecho de uso NIIF 16",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": -1416,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Muebles y enseres",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": -60,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Equipos de cómputo",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Equipos diversos",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": -279,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Costos de financiación",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Unidades de reemplazo",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": -114,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Trabajos en curso",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Total",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": -2335,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Costo - Terrenos",
+          "concepto": "Transferencias",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Edificios, construcciones e instalaciones",
+          "concepto": "Transferencias",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 38337,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Maquinaria y equipos",
+          "concepto": "Transferencias",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 2188,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Unidades de transporte",
+          "concepto": "Transferencias",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Activo por derecho de uso NIIF 16",
+          "concepto": "Transferencias",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Muebles y enseres",
+          "concepto": "Transferencias",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Equipos de cómputo",
+          "concepto": "Transferencias",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 395,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Equipos diversos",
+          "concepto": "Transferencias",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 2056,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Costos de financiación",
+          "concepto": "Transferencias",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Unidades de reemplazo",
+          "concepto": "Transferencias",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Trabajos en curso",
+          "concepto": "Transferencias",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": -42976,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Costo - Total",
+          "concepto": "Transferencias",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Costo - Terrenos",
+          "concepto": "Total costo",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 14788,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Costo - Edificios, construcciones e instalaciones",
+          "concepto": "Total costo",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 912911,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Costo - Maquinaria y equipos",
+          "concepto": "Total costo",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 257720,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Costo - Unidades de transporte",
+          "concepto": "Total costo",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 613,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Costo - Activo por derecho de uso NIIF 16",
+          "concepto": "Total costo",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 7543,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Costo - Muebles y enseres",
+          "concepto": "Total costo",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 2370,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Costo - Equipos de cómputo",
+          "concepto": "Total costo",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 4940,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Costo - Equipos diversos",
+          "concepto": "Total costo",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 32948,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Costo - Costos de financiación",
+          "concepto": "Total costo",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 60164,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Costo - Unidades de reemplazo",
+          "concepto": "Total costo",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 596,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Costo - Trabajos en curso",
+          "concepto": "Total costo",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 15761,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Costo - Total",
+          "concepto": "Total costo",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 1310354,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Depreciación acumulada - Terrenos",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Edificios, construcciones e instalaciones",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 660157,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Maquinaria y equipos",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 208826,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Unidades de transporte",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 566,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Activo por derecho de uso NIIF 16",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 3547,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Muebles y enseres",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 1965,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Equipos de cómputo",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 3449,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Equipos diversos",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 23332,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Costos de financiación",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 50936,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Unidades de reemplazo",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Trabajos en curso",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Total",
+          "concepto": "Saldos iniciales",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 952778,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Depreciación acumulada - Terrenos",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Edificios, construcciones e instalaciones",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 77339,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Maquinaria y equipos",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 10384,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Unidades de transporte",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 21,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Activo por derecho de uso NIIF 16",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 1916,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Muebles y enseres",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 90,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Equipos de cómputo",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 382,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Equipos diversos",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 2014,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Costos de financiación",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 1988,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Unidades de reemplazo",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Trabajos en curso",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Total",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 94134,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Depreciación acumulada - Terrenos",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Edificios, construcciones e instalaciones",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": -16,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Maquinaria y equipos",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": -413,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Unidades de transporte",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Activo por derecho de uso NIIF 16",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": -1415,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Muebles y enseres",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": -21,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Equipos de cómputo",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Equipos diversos",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": -231,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Costos de financiación",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Unidades de reemplazo",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Trabajos en curso",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Depreciación acumulada - Total",
+          "concepto": "Retiros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": -2096,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Depreciación acumulada - Terrenos",
+          "concepto": "Al 31 de diciembre 2023",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Depreciación acumulada - Edificios, construcciones e instalaciones",
+          "concepto": "Al 31 de diciembre 2023",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 737480,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Depreciación acumulada - Maquinaria y equipos",
+          "concepto": "Al 31 de diciembre 2023",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 218797,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Depreciación acumulada - Unidades de transporte",
+          "concepto": "Al 31 de diciembre 2023",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 587,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Depreciación acumulada - Activo por derecho de uso NIIF 16",
+          "concepto": "Al 31 de diciembre 2023",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 4048,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Depreciación acumulada - Muebles y enseres",
+          "concepto": "Al 31 de diciembre 2023",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 2034,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Depreciación acumulada - Equipos de cómputo",
+          "concepto": "Al 31 de diciembre 2023",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 3831,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Depreciación acumulada - Equipos diversos",
+          "concepto": "Al 31 de diciembre 2023",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 25115,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Depreciación acumulada - Costos de financiación",
+          "concepto": "Al 31 de diciembre 2023",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 52924,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Depreciación acumulada - Unidades de reemplazo",
+          "concepto": "Al 31 de diciembre 2023",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Depreciación acumulada - Trabajos en curso",
+          "concepto": "Al 31 de diciembre 2023",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Depreciación acumulada - Total",
+          "concepto": "Al 31 de diciembre 2023",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 1044816,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Deterioro de activos - Terrenos",
+          "concepto": "Saldo inicial",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Deterioro de activos - Edificios, construcciones e instalaciones",
+          "concepto": "Saldo inicial",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 37514,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Deterioro de activos - Maquinaria y equipos",
+          "concepto": "Saldo inicial",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 9343,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Deterioro de activos - Unidades de transporte",
+          "concepto": "Saldo inicial",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Deterioro de activos - Activo por derecho de uso NIIF 16",
+          "concepto": "Saldo inicial",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Deterioro de activos - Muebles y enseres",
+          "concepto": "Saldo inicial",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Deterioro de activos - Equipos de cómputo",
+          "concepto": "Saldo inicial",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Deterioro de activos - Equipos diversos",
+          "concepto": "Saldo inicial",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Deterioro de activos - Costos de financiación",
+          "concepto": "Saldo inicial",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 1861,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Deterioro de activos - Unidades de reemplazo",
+          "concepto": "Saldo inicial",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Deterioro de activos - Trabajos en curso",
+          "concepto": "Saldo inicial",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Deterioro de activos - Total",
+          "concepto": "Saldo inicial",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 48358,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Deterioro de activos - Terrenos",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Deterioro de activos - Edificios, construcciones e instalaciones",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 45732,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Deterioro de activos - Maquinaria y equipos",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 11379,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Deterioro de activos - Unidades de transporte",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Deterioro de activos - Activo por derecho de uso NIIF 16",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Deterioro de activos - Muebles y enseres",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Deterioro de activos - Equipos de cómputo",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Deterioro de activos - Equipos diversos",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Deterioro de activos - Costos de financiación",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 2168,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Deterioro de activos - Unidades de reemplazo",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Deterioro de activos - Trabajos en curso",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Deterioro de activos - Total",
+          "concepto": "Adiciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 59279,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Deterioro de activos - Terrenos",
+          "concepto": "Total deterioro",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Deterioro de activos - Edificios, construcciones e instalaciones",
+          "concepto": "Total deterioro",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 82886,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Deterioro de activos - Maquinaria y equipos",
+          "concepto": "Total deterioro",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 20722,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Deterioro de activos - Unidades de transporte",
+          "concepto": "Total deterioro",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Deterioro de activos - Activo por derecho de uso NIIF 16",
+          "concepto": "Total deterioro",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Deterioro de activos - Muebles y enseres",
+          "concepto": "Total deterioro",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Deterioro de activos - Equipos de cómputo",
+          "concepto": "Total deterioro",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Deterioro de activos - Equipos diversos",
+          "concepto": "Total deterioro",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Deterioro de activos - Costos de financiación",
+          "concepto": "Total deterioro",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 4029,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Deterioro de activos - Unidades de reemplazo",
+          "concepto": "Total deterioro",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Deterioro de activos - Trabajos en curso",
+          "concepto": "Total deterioro",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Deterioro de activos - Total",
+          "concepto": "Total deterioro",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 107637,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Valor en libros - Terrenos",
+          "concepto": "Valor en libros al 31 de diciembre de 2023",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 14788,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Valor en libros - Edificios, construcciones e instalaciones",
+          "concepto": "Valor en libros al 31 de diciembre de 2023",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 92545,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Valor en libros - Maquinaria y equipos",
+          "concepto": "Valor en libros al 31 de diciembre de 2023",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 18201,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Valor en libros - Unidades de transporte",
+          "concepto": "Valor en libros al 31 de diciembre de 2023",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 26,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Valor en libros - Activo por derecho de uso NIIF 16",
+          "concepto": "Valor en libros al 31 de diciembre de 2023",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 3495,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Valor en libros - Muebles y enseres",
+          "concepto": "Valor en libros al 31 de diciembre de 2023",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 336,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Valor en libros - Equipos de cómputo",
+          "concepto": "Valor en libros al 31 de diciembre de 2023",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 1109,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Valor en libros - Equipos diversos",
+          "concepto": "Valor en libros al 31 de diciembre de 2023",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 7833,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Valor en libros - Costos de financiación",
+          "concepto": "Valor en libros al 31 de diciembre de 2023",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 3211,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Valor en libros - Unidades de reemplazo",
+          "concepto": "Valor en libros al 31 de diciembre de 2023",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 596,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Valor en libros - Trabajos en curso",
+          "concepto": "Valor en libros al 31 de diciembre de 2023",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 15761,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Valor en libros - Total",
+          "concepto": "Valor en libros al 31 de diciembre de 2023",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 157901,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Saldo de trabajos en curso",
+          "concepto": "Planta de Tratamiento de agua del TSF",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 15520,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Saldo de trabajos en curso",
+          "concepto": "Planta de Tratamiento de agua del TSF",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 181,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Saldo de trabajos en curso",
+          "concepto": "Construcción presa de relaves",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 9054,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Saldo de trabajos en curso",
+          "concepto": "Construcción presa de relaves",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 5880,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Saldo de trabajos en curso",
+          "concepto": "Reubicación de zonas de mina",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 5280,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Saldo de trabajos en curso",
+          "concepto": "Reubicación de zonas de mina",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 2422,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Saldo de trabajos en curso",
+          "concepto": "Equipos para el área de procesos",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 3000,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Saldo de trabajos en curso",
+          "concepto": "Equipos para el área de procesos",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 1337,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Saldo de trabajos en curso",
+          "concepto": "Sistema de drenaje de aguas en el tajo",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 808,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Saldo de trabajos en curso",
+          "concepto": "Sistema de drenaje de aguas en el tajo",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 636,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Saldo de trabajos en curso",
+          "concepto": "Impermeabilización en zona de balanza",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 531,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Saldo de trabajos en curso",
+          "concepto": "Impermeabilización en zona de balanza",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Saldo de trabajos en curso",
+          "concepto": "Mejoramiento capacidad de planta CO2",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 248,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Saldo de trabajos en curso",
+          "concepto": "Mejoramiento capacidad de planta CO2",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 150,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Saldo de trabajos en curso",
+          "concepto": "Equipos de tecnología y comunicaciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 238,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Saldo de trabajos en curso",
+          "concepto": "Equipos de tecnología y comunicaciones",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 201,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Saldo de trabajos en curso",
+          "concepto": "Adquisición de propiedades",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Saldo de trabajos en curso",
+          "concepto": "Adquisición de propiedades",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 3146,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Saldo de trabajos en curso",
+          "concepto": "Optimización de circuito gravimétrico",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Saldo de trabajos en curso",
+          "concepto": "Optimización de circuito gravimétrico",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 616,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Saldo de trabajos en curso",
+          "concepto": "Otros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 783,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Saldo de trabajos en curso",
+          "concepto": "Otros",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 1192,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Saldo de trabajos en curso",
+          "concepto": "Subtotal",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 35462,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Saldo de trabajos en curso",
+          "concepto": "Subtotal",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 15761,
+          "tipo_fila": "total"
+        }
+      ]
+    },
+    "inventarios": {
+      "filas": [
+        {
+          "seccion": "Existencias",
+          "concepto": "Productos terminados - concentrado de cobre",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 4586,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Existencias",
+          "concepto": "Productos terminados - concentrado de cobre",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 5621,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Existencias",
+          "concepto": "Productos en proceso de concentrado de cobre",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 3302,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Existencias",
+          "concepto": "Productos en proceso de concentrado de cobre",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 2789,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Existencias",
+          "concepto": "Suministros diversos (a)",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 16699,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Existencias",
+          "concepto": "Suministros diversos (a)",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 19316,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Existencias",
+          "concepto": "Existencias por recibir",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 574,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Existencias",
+          "concepto": "Existencias por recibir",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 242,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Existencias",
+          "concepto": "Productos en proceso a largo plazo (b)",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 190139,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Existencias",
+          "concepto": "Productos en proceso a largo plazo (b)",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 150746,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Existencias",
+          "concepto": "Total existencias",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 215300,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Existencias",
+          "concepto": "Total existencias",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 178714,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Existencias",
+          "concepto": "Porción corriente",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 25161,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Existencias",
+          "concepto": "Porción corriente",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 27968,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Existencias",
+          "concepto": "Porción no Corriente",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 190139,
+          "tipo_fila": "subtotal"
+        },
+        {
+          "seccion": "Existencias",
+          "concepto": "Porción no Corriente",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 150746,
+          "tipo_fila": "subtotal"
+        }
+      ]
+    },
+    "ventas_por_producto": {
+      "filas": [
+        {
+          "seccion": "Por producto",
+          "concepto": "Venta de concentrados de cobre (a)",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 402620,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Por producto",
+          "concepto": "Venta de concentrados de cobre (a)",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 444404,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Por producto",
+          "concepto": "Ajuste de precios (b)",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 8183,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Por producto",
+          "concepto": "Ajuste de precios (b)",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 6977,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Por producto",
+          "concepto": "Subtotal",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 410803,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Por producto",
+          "concepto": "Subtotal",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 451381,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Por destino",
+          "concepto": "Perú (a.1)",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 106852,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Por destino",
+          "concepto": "Perú (a.1)",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 125134,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Por destino",
+          "concepto": "Japón",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 162365,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Por destino",
+          "concepto": "Japón",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 190706,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Por destino",
+          "concepto": "Alemania",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 133403,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Por destino",
+          "concepto": "Alemania",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 98374,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Por destino",
+          "concepto": "Bulgaria",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 0,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Por destino",
+          "concepto": "Bulgaria",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 29190,
+          "tipo_fila": "partida"
+        },
+        {
+          "seccion": "Por destino",
+          "concepto": "Subtotal",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2024",
+          "valor": 402620,
+          "tipo_fila": "total"
+        },
+        {
+          "seccion": "Por destino",
+          "concepto": "Subtotal",
+          "codigo": null,
+          "nota": null,
+          "periodo": "2023",
+          "valor": 444404,
+          "tipo_fila": "total"
+        }
+      ]
+    }
+  },
+  "quality": {
+    "situacion_financiera": {
+      "estado": "Aprobado",
+      "observaciones": []
+    },
+    "resultados": {
+      "estado": "Aprobado",
+      "observaciones": []
+    }
+  },
+  "unparsed": []
+}
