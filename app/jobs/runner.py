@@ -53,6 +53,14 @@ _TRACE_NAMES: dict[JobType, str] = {
 
 logger = logging.getLogger(__name__)
 
+
+def _trace_name(job: Job) -> str:
+    """Nombre de la traza raíz, con el análisis si lo hay: en la lista de
+    LangSmith, ocho «Búsqueda de Páginas» iguales no dicen cuál es cuál."""
+    name = _TRACE_NAMES.get(job.type, job.type.value)
+    return f"{name} · {job.analysis_type}" if job.analysis_type else name
+
+
 Handler = Callable[[Job, StageContext], Any]
 
 _PERSIST_INTERVAL_SECONDS = 1.0
@@ -208,12 +216,16 @@ class JobRunner:
                 # los servicios (cada una ya decorada con su propio
                 # `@traceable`) quedan anidadas bajo ella en LangSmith, en vez
                 # de aparecer como trazas sueltas sin relación entre sí.
+                # `thread_id` agrupa en la vista Threads de LangSmith todos los
+                # jobs de un mismo documento: quien lo procesa etapa por etapa
+                # ve su historia completa, no trazas sueltas.
                 with trace(
-                    _TRACE_NAMES.get(job.type, job.type.value),
+                    _trace_name(job),
                     run_type="chain",
                     metadata={
                         "job_id": job.job_id,
                         "document_id": job.document_id,
+                        "thread_id": job.document_id or job.job_id,
                         "analysis_type": job.analysis_type,
                     },
                     tags=[job.type.value],

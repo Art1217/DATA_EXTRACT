@@ -51,6 +51,16 @@ class LLMResponse:
     text: str | None
     """`None` cuando el modelo agotó su presupuesto de salida sin escribir nada."""
     finish_reason: str | None = None
+    usage: Usage | None = None
+    """Tokens consumidos, si el proveedor los informa (el `fake` no)."""
+
+
+@dataclass(frozen=True, slots=True)
+class Usage:
+    input_tokens: int = 0
+    output_tokens: int = 0
+    reasoning_tokens: int = 0
+    """Tokens de razonamiento: se facturan como salida aunque no aparezcan en el texto."""
 
 
 @dataclass(frozen=True, slots=True)
@@ -198,7 +208,20 @@ class GoogleGenAIProvider:
             model=request.model, contents=contents, config=config
         )
         report_usage(response, request.model)
-        return LLMResponse(text=response.text, finish_reason=_finish_reason(response))
+        return LLMResponse(
+            text=response.text, finish_reason=_finish_reason(response), usage=_usage(response)
+        )
+
+
+def _usage(response: Any) -> Usage | None:
+    meta = getattr(response, "usage_metadata", None)
+    if meta is None:
+        return None
+    return Usage(
+        input_tokens=int(getattr(meta, "prompt_token_count", 0) or 0),
+        output_tokens=int(getattr(meta, "candidates_token_count", 0) or 0),
+        reasoning_tokens=int(getattr(meta, "thoughts_token_count", 0) or 0),
+    )
 
 
 def _finish_reason(response: Any) -> str | None:
